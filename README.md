@@ -35,7 +35,8 @@ www.whitepod.com
 Nuestro e-commerce da respuesta a los problemas para encontrar alojamientos con características originales (Casas del árbol
 Eco–lodge, Yurtas o domos, Tiendas safari, Iglú, Tiendas de lona, Auto caravanas) que a la vez ofrezcan facilidades y comodidades de un hotel de buen nivel, orientados hacia la naturaleza, el aire libre, el espacio personal reservado y aislado, estas dos, variables indispensables épocas de pandemia.
 
-descripción de los integrantes del equipo
+* descripción de los integrantes del equipo
+
 - Hola, soy Lorena Verónica Luna, tengo 43 años, casada y 4 hijas, vivo en Escobar, Buenos Aires, Argentina
 Soy técnica en gestión de Servicios Turísticos, trabaje toda mi vida en aviación en diferentes aerolíneas. Actualmente me desempeño como Idónea de una agencia de turismo.
 - Ignacio Barletta Trípodi, soltero, tengo 38 años y vivo en Pilar, Buenos Aires, Argentina.
