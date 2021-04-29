@@ -43,3 +43,5 @@ Soy técnica en gestión de Servicios Turísticos, trabaje toda mi vida en aviac
 Ignacio Barletta Trípodi, soltero, tengo 38 años y vivo en Pilar, Buenos Aires, Argentina.
 Soy emprendedor y actualmente trabajo en una insurtech que fundé en 2017 junto a un amigo llamada "leverbox" la cual posee presencia en 6 países.
 Fanático de River, actualmente miembro de la comisión de Relaciones Institucionales del club.
+
+¡Hola! Me llamo Facundo Vera, tengo 17 años, actualmente estoy en la secundaria a un año de terminarla, resido en Caballito, Ciudad Autónoma de Buenos Aires.
