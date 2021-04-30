@@ -1,6 +1,10 @@
 # grupo_6_
 * E-commerce de turismo "Glamping"
-* Nombre:  Camping con glamour
+* Nombre:  WeGlamp
+* Logo:
+
+Tipografia: Juilius Sans One
+Color: #000000 #F10404
 
 * Sitios de referencia:
 
