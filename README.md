@@ -1,4 +1,6 @@
 # grupo_6_
+https://trello.com/invite/b/VdvcE4XD/45eb39ae97ab0b95f68aa2142ea6a14d/grupo6sprint1
+
 * E-commerce de turismo "Glamping"
 * Nombre:  WeGlamp
 * Logo:
