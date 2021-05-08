@@ -1,0 +1,92 @@
+* {
+    box-sizing: border-box;
+}
+img{
+    display:flex;
+    justify-content: flex-start;
+}
+div.main-header-top-bar h2{
+    display: flex;
+    justify-content: flex-end;
+}
+nav.main-header-bottom-bar h3{
+    display: inline-flex;
+  
+
+}
+nav.main-header-bottom-bar{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+section.beneficio{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+   
+}
+.beneficioUno{
+    border: 5px solid red;
+    padding: 60px;
+}
+.beneficioDos{
+    border: 5px solid red;
+    padding: 60px;
+}
+.beneficioTres{
+    border: 5px solid red;
+    padding: 60px;
+}
+nav.barradebusqueda{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+nav.sindecidir{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+section.destinos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+nav.destino1{
+    border:3px black solid;
+}
+nav.destino2{
+    border:3px black solid;
+}
+nav.destino3{
+    border:3px black solid;
+}
+nav.destino4{
+    border:3px black solid;
+}
+div.main-nav-bottom{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-end;
+}
+div.left-footer{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+   
+}
+.redes{
+    flex-direction: row;
+}
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+section.bottom-footer{
+    display: block
+    
+}
