@@ -156,3 +156,7 @@ hr {
     flex-direction: row;
     flex-wrap: wrap;
 }
+
+i {
+    color: black;
+}
