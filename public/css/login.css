@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css?family=Noto&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fbfbfb;
+    font-family: 'Poppins',sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1366px;
+    height: 768;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.modal {
+    background-color: white;
+    width: 800px;
+    height: 550px;
+    max-width: 100%;
+    max-height: 100%;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 8px 8px 0px #0000001A;
+    border: 2px solid #3E3E3E;
+    opacity: 1;
+}
+
+h1 {
+    color: black;
+    font-size: 32px;
+    font-family: 'Noto', sans-serif;
+    text-align: left;
+    margin-top: -10px;
+}
+
+h2 {
+    color: black;
+    font-size: 16px;
+    font-family: 'Noto', sans-serif;
+    text-align: left;
+}
+
+h3 {
+    width: 98px;
+    height: 18px;
+    text-align: center;
+    font: normal normal bold 13px/19px Noto Sans;
+    letter-spacing: 0.39px;
+    color: #3D3D3D;
+    opacity: 1;
+}
+
+.izquierda {
+    float: left;
+    padding: 30px 50px;
+    margin-top: 30px;
+}
+
+.imagen {
+    width: 350px;
+    height: 350px;
+    opacity: 1;
+    margin-top: 30px;
+}
+
+.campo_usuario {
+    width: 280px;
+    height: 48px;
+    opacity: 1;
+}
+
+.campo_contrasena {
+    width: 280px;
+    height: 48px;
+    opacity: 1;
+}
+
+.ingresar {
+    width: 280px;
+    height: 48px;
+    opacity: 1;
+    background-color: rgb(38, 38, 38);
+    color: white;
+    margin-bottom: 20px;
+    border-style: none;
+}
+
+hr {
+    top: 538px;
+    left: 527px;
+    width: 65px;
+    height: 0px;
+    border: 1px solid #CFCFCF;
+    opacity: 1;
+}
+
+.ingreso_alternativo {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-left: -25px;
+}
+
+.usuario_crear {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    margin-top: -10px;
+}
+
+.crear {
+    margin: 10px;
+    text-decoration: none;
+}
+
+.redes {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    font-size: 40px;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin-right: 30px;
+}
+
+.derecha_arriba {
+    text-align: right;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+.cruz {
+    font-size: 50px;
+}
