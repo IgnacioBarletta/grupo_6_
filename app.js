@@ -1,9 +1,8 @@
 const express = require('express');
 const path = require('path');
-
 const app = express();
-
 const publicpath = path.resolve(__dirname, './public');
+
 app.use(express.static(publicpath));
 
 app.listen(3000, () => {
@@ -17,12 +16,11 @@ app.get('/', (req,res) => {
 app.get('/productDetail', (req,res) => {
     res.sendFile(path.resolve(__dirname, './views/productDetail.html'));
 });
+
 app.get('/login', (req,res) => {
     res.sendFile(path.resolve(__dirname, './views/login.html'));
 });
+
 app.get('/register', (req,res) => {
     res.sendFile(path.resolve(__dirname, './views/register.html'));
-});
-app.get('/index-copy', (req,res) => {
-    res.sendFile(path.resolve(__dirname, './views/index-copy.html'));
 });

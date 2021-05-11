@@ -4,40 +4,56 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
+    <link rel="stylesheet" href="/css/login.css">
+    <script src="https://kit.fontawesome.com/ede0f8a666.js" crossorigin="anonymous"></script>
+    <title>Login</title>
 
+</head>
     <body>
 
         <main>
-
         <div class="modal-container" id="modal-container">
+            
             <div class="modal">
 
-                <i class="far fa-times-circle"></i>
+            <section class="izquierda">
                 <h1>Ingresar a mi cuenta</h1>
-                <h2>Usuario nuevo? <strong>Crear una cuenta</strong></h2>
+            <section class="usuario_crear">
+                <h2 class="nuevo">Usuario nuevo?</h2>
+                <a href="/register" class="crear">Crear una cuenta</a>
+            </section>
+            <section class="form">
+                <p></p>
+                <input type="text" class="campo_usuario" value="Usuario o e-mail"><br>
+                <p></p>
+                <input type="text" class="campo_contrasena" value="Contraseña">
+                <p></p>
+                <label><input type="checkbox" class="mantenerme_logueado">Mantenerme logueado</label>
+                <p></p>
+                <input type="button" class="ingresar" value="Ingresar">
+            </section>
+            <section class="ingreso_alternativo">
+                <hr> <h3> o ingresar con </h3> <hr>
+            </section>
+            <section class="redes">
+                <i class="fab fa-google" class="icon_login"></i>
+                <i class="fab fa-facebook" class="icon_login"></i>
+                <i class="fab fa-linkedin" class="icon_login"></i>
+                <i class="fab fa-twitter-square" class="icon_login"></i>
+            </section>
+            </section>
 
-                <input type="text" name="usuario" value="Usuario o e-mail"><br>
-                <input type="text" name="clave" value="Clave">
+            <section class="derecha_arriba">
+                <div class="cruz">
+                <a href="/"><i class="far fa-times-circle"></i></a>
+                </div>
+            </section>
 
-                <label><input type="checkbox" id="mantenerme"> Mantenerme logueado</label>
-
-                <input type="button" id="ingresar" value="Ingresar">
-                
-                <i class="far fa-horizontal-rule"> </i><h3>O ingresar con</h3> <i class="far fa-horizontal-rule"></i>
-                <i class="fab fa-google"></i>
-                <i class="fab fa-facebook"></i>
-                <i class="fab fa-linkedin"></i>
-                <i class="fab fa-twitter-square"></i>
-
-
-            </div>
-
+            <section class="derecho_abajo">
+                <img src="/images/fotoejemplo.png" alt="foto" class="imagen">
+            </section>
         </div>
-
         </main>
-
     </body>
 
 </html>
