@@ -1,75 +1,222 @@
 * {
     box-sizing: border-box;
+    padding: 10;
+    border: 0;
+    font-family: 'Montserrat', sans-serif;
+
+}
+body a{
+    color:#212529   
+}
+.top-header{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 24px;
+    margin: 16px 15px 0p;
 }
 img{
     display:flex;
     justify-content: flex-start;
 }
-div.main-header-top-bar h2{
+div.main-header-top-bar {
     display: flex;
-    justify-content: flex-end;
+    justify-content: flex-end; 
 }
-nav.main-header-bottom-bar h3{
+div.main-header-top-bar h2 a{
+    margin: 6px;
+    background-color: #6c757d;
+    padding: 6px 12px;
+    font-size: 16px;
+    text-align: center;
+    color: #ffffff;
+}
+
+
+div.main-header-bottom-bar h3 a{
     display: inline-flex;
-  
+    color: #212529;
+    font-size: 16px;
+    margin-left: 15px;
 
 }
-nav.main-header-bottom-bar{
+div.main-header-bottom-bar{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: flex-start;
+    background-color: #f8f9fa;
+    padding:8px 16px;
 }
-section.beneficio{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+
+
+nav h3{
+    font-size: 30px;
+    color: #3d3b3a;
+    margin: 0px 15px;
+    padding: 48px 0px;
+    text-align: center;
+    background-color:#eaeaea;
+    font-weight:bold;
+}
+
+.main-nav-bar{
+    color: #333333;
+    font-size: 16px;
+    background-color: #d6d5d5;
+    margin: 0px 0px 16px;
+    padding: 10px;
+    
    
-}
-.beneficioUno{
-    border: 5px solid red;
-    padding: 60px;
-}
-.beneficioDos{
-    border: 5px solid red;
-    padding: 60px;
-}
-.beneficioTres{
-    border: 5px solid red;
-    padding: 60px;
 }
 nav.barradebusqueda{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    padding-top: 12px;
 }
 nav.sindecidir{
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: flex-start;
+    margin:16px 0px 0px;
+    padding: 0px 0px 0px 20px;
+   
 }
-section.destinos{
+
+section.beneficio{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    margin: 0px 15px;
+    padding: 16px;
+    background-color: #eaeaea;
+
 }
-nav.destino1{
-    border:3px black solid;
+
+.beneficioUno{
+    border: 1px solid #000000;
+    padding: 10px 99px;
+    font-size: 16px;
+    background-color: #eaeaea;
+    margin: 0px 0px 16px; 
+    
 }
-nav.destino2{
-    border:3px black solid;
+.beneficioDos{
+    border: 1px solid #000000;
+    padding: 10px 99px;
+    font-size: 16px;
+    background-color: #eaeaea;
+    margin: 0px 0px 16px; 
 }
-nav.destino3{
-    border:3px black solid;
+.beneficioTres{
+    border: 1px solid #000000;
+    padding: 10px 99px;
+    color: #212529;
+    font-size: 16px;
+    background-color: #eaeaea;
+    margin: 0px 0px 16px;  
 }
-nav.destino4{
-    border:3px black solid;
+
+
+h2.recomendados{
+color: #3d3b3a;
+font-size: 30px;
+text-align: center;
+font-weight: bold;
 }
-div.main-nav-bottom{
+
+.recomendados{
+    margin:48px 0px;
+    padding: 48px 0px;
+    text-align: center;
+    font-weight: bold;
+}
+
+section.destinos{
     display: flex;
     flex-wrap: wrap;
-    flex-direction: column;
-    align-items: flex-end;
+   flex-direction: row;
+   color: 333333;
+   justify-content: space-around;
+
 }
+
+.destino1{
+    background-color: #e0e0e0;
+    padding: 15px 15px;
+    position: relative;
+    width: 100%;
+
+}
+.destino2{
+    background-color: #ababab;
+    padding: 15px 15px;
+    position: relative;
+    width: 100%;
+    
+}
+.destino3{
+    background-color: #e0e0e0;
+    padding: 15px 15px;
+    position: relative;
+    width: 100%;
+    
+}
+.destino4{
+    background-color: #ababab;
+    padding: 15px 15px;
+    position: relative;
+    width: 100%;
+}
+.listadodestino{
+    color: rgb(51, 51, 51);
+    text-align: start;
+    list-style:none;
+    padding: 0;
+    line-height: 35px;
+}
+
+.precioDestino{
+    color: rgb(61, 59, 58);
+    font-size: 11px;
+    text-align: start;
+    font-weight: 700;
+    line-height: 60px;
+}
+
+li.precio-destino{
+    font-size: 25px;
+    text-align: center;
+    font-weight: 700;
+    color: rgb(51, 51, 51);
+}
+
+.verOferta{
+    margin:auto; 
+    background-color: rgb(190, 4, 4); 
+    border: rgb(190, 6, 6);
+    display: flex;
+    justify-content: center;
+    color: #ffffff;
+    padding: 8px;
+}
+
+section.main-nav-bottom{
+    display: flex;
+    flex-direction: row;
+}
+div.main-bottom{
+    display: flex;
+    flex-direction: column;
+    color: rgb(61, 59, 58);
+    font-size: 15px;
+    text-align: center;
+    font-weight: 700;
+    margin: auto;
+}
+
+
 div.left-footer{
     display: flex;
     flex-wrap: wrap;
@@ -83,10 +230,49 @@ footer{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    justify-content: space-between;
-}
-
-section.bottom-footer{
-    display: block
+    justify-content: space-around;
+    background: #eaeaea;
+    margin: auto;
     
 }
+div.left-footer{
+      margin: auto;
+     text-align: start;
+     padding-left: 3rem;
+     padding-top: 3rem;
+}
+
+section.right-footer{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-end;
+    color: #808080;
+}
+
+.container{
+    display: flex;
+   justify-content: space-beetween;
+   display: inline-block;
+   
+   
+}
+section.bottom-footer{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+    margin: 0px 0px 16px;
+    color: #212529;
+    font-size: 10px;
+    padding: 16px;
+    
+}
+
+.formulario-busqueda{
+    background-color: #d6d5d5;
+    color: rgb(51, 51, 51);
+    padding: 10px;
+}
+
+

@@ -8,33 +8,68 @@
     <title>weglamp</title>
     <link rel="stylesheet" href="/css/styles.css">
     <script src="https://kit.fontawesome.com/ede0f8a666.js" crossorigin="anonymous"></script>
+     <!-- Bootstrap CSS -->
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+     <link rel="preconnect" href="https://fonts.gstatic.com">
+     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet"></head>
 </head>
 
 <body>
 
-<header class="main-header">
-    <div class="main-header-top-bar">
-    <img src="/design/weglamp.jpg" width="300">
-    <h2 class="log-in">
-        <a href="/views/login.html">Iniciar Sesion</a> </h2>
-    <h2 class="ayuda">
-        <a href="/view/register.html">Ayuda</a></h2>
-    </div>
-    <nav class="main-header-bottom-bar" class="logo"> 
+<header>
+    <section class="top-header">
+        <div>
+             <img src="/design/weglamp.jpg" width="200">
+         </div>
+
+         <div class="main-header-top-bar">
+                 <h2 class="log-in">
+                       <a href="/login">Iniciar Sesion</a> </h2>
+                 <h2 class="ayuda">
+                         <a href="/register">Ayuda</a></h2>
+        </div>
+    </section>
+    <div class="main-header-bottom-bar"> 
         <h3>
-            <a href="#">alojamientos </a></h3>
+            <a href="#">Alojamientos </a></h3>
           
         <h3>
-            <a href="#">vuelos </a></h3>
+            <a href="#">Vuelos </a></h3>
            
         <h3>
-             <a href="#">paquetes </a></h3>
+             <a href="#">Paquetes </a></h3>
             
         <h3>
-            <a href="#">seguros </a></h3>
-          
+            <a href="#">Seguros </a></h3>
+    </div>
 
-    </nav>
+    
+    
+
+</header>
+
+<main>
+    <nav class="main-nav-bar"> 
+        <h3>Busca tu paquete</h3>
+        <nav class="barradebusqueda">
+            <P>Destino</P>
+            <p>Check-in</p>
+            <p>Check out</p>
+            <p>Pasajeros</p>
+            <i class="fas fa-search"><button type="submit"> BUSCAR</button></i> 
+        </nav>
+       
+        <nav class="sindecidir">
+           
+            <p>todavía no he decidido la fecha</p>
+            <div class="switch_container">
+                <input type="check-box" id="switch">
+                <label for="switch" class="lbl"></label><p>No he decidido las fechas</p>
+                </div>
+            <i class="far fa-calendar-check"></i>
+        </nav>
+
+    </nav> 
     <section class="beneficio">
         <article class="beneficioUno"> 
             <a href="#">beneficio 1 </a>
@@ -46,112 +81,100 @@
             <a href="#">beneficio 3 </a>
         </article>
     </section>
-
-</header>
-
-<main>
-    <nav class="main-nav-bar"> 
-        <h3>Busca tu paquete</h3>
-        <nav class="barradebusqueda">
-            <P>origen</P>
-            <P>destino</P>
-            <p>check-in</p>
-            <p>check out</p>
-            <p>adultos</p>
-            <P>menores</P>
-        </nav>
-       
-        <nav class="sindecidir">
-            <i class="fas fa-search"></i>
-            <p>todavía no he decidido la fecha</p>
-            <i class="far fa-calendar-check"></i>
-        </nav>
-
-    </nav> 
+    <h2 class="recomendados">Recomendados del Mes</h2>
     <section class="destinos">
-    <nav class="destino1">destino 1
-        <ul>
-            <li>vuelo flexible</li>
-            <li>seguro covid-19</li>
-            <li>incluye equipaje</li>
-            <li>$     </li>
-            <li>descripcion de oferta</li>
-            <li>fechas</li>
+    <article>
+        <h3 class="destino1">Destino</h3>
+        <ul type="none" class="destino1">
+            <li class="listadodestino">vuelo flexible</li>
+            <li class="listadodestino">seguro covid-19</li>
+            <li class="listadodestino">incluye equipaje</li>
+            <li class="precio-destino">$.-    </li>
+            <li class="precioDestino">descripcion de oferta y fechas</li>
+            <button type="submit" class="verOferta">Ver oferta</button>
         </ul>
-    </nav>
-    <nav class="destino2">destino 2
-        <ul>
-            <li>vuelo flexible</li>
-            <li>seguro covid-19</li>
-            <li>incluye equipaje</li>
-            <li>$     </li>
-            <li>descripcion de oferta</li>
-            <li>fechas</li>
+    </article>
+    <article>
+        <h3 class="destino2">Destino</h3>    
+        <ul type="none" class="destino2">
+            <li class="listadodestino">vuelo flexible</li>
+            <li class="listadodestino">seguro covid-19</li>
+            <li class="listadodestino">incluye equipaje</li>
+            <li class="precio-destino">$.-    </li>
+            <li class="precioDestino">descripcion de oferta y fechas</li>
+            <button type="submit" class="verOferta">Ver oferta</button>
         </ul>
-    </nav>
-    <nav class="destino3">destino 3
-        <ul>
-            <li>vuelo flexible</li>
-            <li>seguro covid-19</li>
-            <li>incluye equipaje</li>
-            <li>$     </li>
-            <li>descripcion de oferta</li>
-            <li>fechas</li>
+    </article>
+    <article>
+        <h3 class="destino3">Destino</h3>
+        <ul type="none" class="destino3">
+            <li class="listadodestino">vuelo flexible</li>
+            <li class="listadodestino">seguro covid-19</li>
+            <li class="listadodestino">incluye equipaje</li>
+            <li class="precio-destino">$.-   </li>
+            <li class="precioDestino">descripcion de oferta y fechas</li>
+            <button type="submit" class="verOferta">Ver oferta</button>
+            
         </ul>
-    </nav>
-    <nav class="destino4">destino 4
-        <ul>
-            <li>vuelo flexible</li>
-            <li>seguro covid-19</li>
-            <li>incluye equipaje</li>
-            <li>$     </li>
-            <li>descripcion de oferta</li>
-            <li>fechas</li>
+    </article>
+    <article>
+
+    <h3 class="destino4">Destino</h3>
+        <ul type="none" class="destino4">
+            <li class="listadodestino">vuelo flexible</li>
+            <li class="listadodestino">seguro covid-19</li>
+            <li class="listadodestino">incluye equipaje</li>
+            <li class="precio-destino">$.-    </li>
+            <li class="precioDestino">descripcion de oferta y fechas</li>
+            <button type="submit" class="verOferta">Ver oferta</button>
         </ul>
-    </nav>
+    </article>
 </section>
-    <div class="main-nav-bottom">
-    <!-- imágen -->
-    <h2>encontrá ofertas para tu próximo destino</h2>
-    <h4>suscribite a nuestro newsletter</h4>
-    <nav class="barraEmail">e mail</nav>
+<section class="main-nav-bottom">
+    
+        <img src="https://www.arquitecturaydiseno.es/medio/2019/05/16/[08]terlingua_c4505cae_1500x1000.jpg"  width="700" alt="">
+        <div class="main-bottom">
+             <h2> <strong>Encontrá ofertas para tu próximo destino</strong> </h2>
+             <h4>suscribite a nuestro newsletter</h4>
+             <input type="text" class="form-control">
     </div>
+</section>
 </main>
 <footer>
-    <div class="left-footer"><img src="/design/weglamp.jpg" width="250">
-        <p>texto</p>
-        <section class="redes">
-        <i class="fab fa-facebook-f"></i>
-        <i class="fab fa-twitter"></i>
-        <i class="fab fa-instagram"></i>
-        <i class="fab fa-youtube"></i>
-        <i class="fab fa-whatsapp"></i>
-    </section>
+<div class="container">
+    <div class="left-footer"><img src="/design/weglamp.jpg" width="300">
+        <p>Breve texto explicativo acerca de nuestra marca</p>
+            <section class="redes">
+                 <i class="fab fa-facebook-f"></i>
+                 <i class="fab fa-twitter"></i>
+                 <i class="fab fa-instagram"></i>
+                 <i class="fab fa-youtube"></i>
+                 <i class="fab fa-whatsapp"></i>
+             </section>
     </div>
-    <section class="right-footer">
-        <ul>
-            <H4>Servicios</H4>
-            <li><a href="#">Alojamientos</a></li>
-            <li><a href="#">Paquetes</a></li>
-            <li><a href="#">Aereos</a></li>
-            <li><a href="#">Seguros</a></li>
-           
-            </ul>
+            <section class="right-footer">
+               <ul type="none">
+                  <H4>Servicios</H4>
+                       <li><a href="#">Alojamientos</a></li>
+                      <li><a href="#">Paquetes</a></li>
+                      <li><a href="#">Aereos</a></li>
+                      <li><a href="#">Seguros</a></li>
+               </ul>
     
-            <ul>
-                <H4>Empresa</H4>
-                <li><a href="#">Quienes somos</a></li>
-                <li><a href="#">términos y condiciones</a></li>
-                <li><a href="#">políticas de privacidad</a></li> 
-                <li><a href="#">FAQ's</a></li>
-                </ul>
-    </section>
+                <ul type="none">
+                    <H4>Empresa</H4>
+                    <li><a href="#">Quienes somos</a></li>
+                    <li><a href="#">términos y condiciones</a></li>
+                    <li><a href="#">políticas de privacidad</a></li> 
+                    <li><a href="#">FAQ's</a></li>
+                    </ul>
+             </section>
+ </div>
     <section class="bottom-footer">
-        <img src="/design/weglamp.jpg" width="100">
-        <p>copyright</p>
-        <p><a href="#">políticas de privacidad</a>
+        <p>Copyright</p>
+        <p><a href="#">Políticas de privacidad</a>
         </p>
-        <p><a href="#">>terminos y condiciones</a></p>
+        <p><a href="#">Terminos y condiciones</a></p>
 
     </section>
 
