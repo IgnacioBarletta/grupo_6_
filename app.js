@@ -24,3 +24,15 @@ app.get('/login', (req,res) => {
 app.get('/register', (req,res) => {
     res.sendFile(path.resolve(__dirname, './views/register.html'));
 });
+app.get('/queEs', (req,res) => {
+    res.sendFile(path.resolve(__dirname, './views/queEs.html'));
+});
+app.get('/tipos', (req,res) => {
+    res.sendFile(path.resolve(__dirname, './views/tipos.html'));
+});
+app.get('/seisRazones', (req,res) => {
+    res.sendFile(path.resolve(__dirname, './views/seisRazones.html'));
+});
+app.get('/qmasInfo', (req,res) => {
+    res.sendFile(path.resolve(__dirname, './views/masInfo.html'));
+});

@@ -16,7 +16,6 @@
 
 <body>
 
-
 <header>
     <section class="top-header">
         <div>
@@ -31,7 +30,6 @@
         </div>
     </section>
     <div class="main-header-bottom-bar"> 
-
         <h3>
             <a href="#">Alojamientos </a></h3>
           
@@ -54,22 +52,41 @@
     <nav class="main-nav-bar"> 
         <h3>Busca tu paquete</h3>
         <nav class="barradebusqueda">
-            <P>Destino</P>
-            <p>Check-in</p>
-            <p>Check out</p>
-            <p>Pasajeros</p>
+            <form action="/productDetail" method="POST">
+                <label for="destination">Destino</label>
+
+                   <select name="destination" id="destination">
+                        <option value="neuquen">Neuquen</option>
+                        <option value="ushuaia">Ushuaia</option>
+                        <option value="bariloche">Bariloche</option>
+                        <option value="lobos">Lobos</option>
+                        <option value="tigre">Tigre</option>
+                    </select>
+
+                <label for="checkinDate" name="checkinDate">Check-in</label>
+                         <input type="date" name="checkinDate">
+                 <label for="checkoutDate" name="checkoutDate">Check-out</label>
+                         <input type="date" name="checkoutDate">
+
+                <label for="pax" name="pax">Pasajeros</label>
+                <select name="Pax" id="pax">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                 </select>
+           
             <i class="fas fa-search"><button type="submit"> BUSCAR</button></i> 
+        </form>
         </nav>
        
         <nav class="sindecidir">
-           
             <p>todavía no he decidido la fecha</p>
             <div class="switch_container">
                 <input type="check-box" id="switch">
-                <label for="switch" class="lbl"></label><p>No he decidido las fechas</p>
+                <label for="switch" class="lbl"></label>
                 </div>
-
-            <i class="far fa-calendar-check"></i>
+          
         </nav>
 
     </nav> 
@@ -157,11 +174,11 @@
     </div>
             <section class="right-footer">
                <ul type="none">
-                  <H4>Servicios</H4>
-                       <li><a href="#">Alojamientos</a></li>
-                      <li><a href="#">Paquetes</a></li>
-                      <li><a href="#">Aereos</a></li>
-                      <li><a href="#">Seguros</a></li>
+                  <H4>Descubriendo mas..</H4>
+                       <li><a href="/queEs">¿Que es Glamping?</a></li>
+                      <li><a href="/tipos">Tipos de Glamping</a></li>
+                      <li><a href="/seisRazones">6 razones para hacer glamping</a></li>
+                      <li><a href="/masInfo">Mas Info..</a></li>
                </ul>
     
                 <ul type="none">
