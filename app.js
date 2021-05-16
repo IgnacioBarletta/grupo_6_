@@ -36,3 +36,6 @@ app.get('/seisRazones', (req,res) => {
 app.get('/qmasInfo', (req,res) => {
     res.sendFile(path.resolve(__dirname, './views/masInfo.html'));
 });
+app.get('/qmasInfo', (req,res) => {
+    res.sendFile(path.resolve(__dirname, './views/ayuda.html'));
+});
