@@ -86,6 +86,7 @@ i button{
     border-radius:15px;
     padding-right: 15px;
     padding-left: 15px;
+    font-size: 1em;
 }
 
 i.fas.fa-search{ 
@@ -97,141 +98,79 @@ nav.sindecidir{
     justify-content: flex-start;
     margin:16px 0px 0px;
     padding: 0px 0px 0px 20px;
-   
 }
 
-section.beneficio{
+.yourSelection{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
-    margin: 0px 15px;
-    padding: 16px;
-    background-color: #eaeaea;
-
-}
-
-.beneficioUno{
-    border: 1px solid #000000;
-    padding: 10px 99px;
-    font-size: 16px;
-    background-color: #eaeaea;
-    margin: 0px 0px 16px; 
+    flex-direction:row;
+   padding-left: 20px;
+    border: solid 15px rgb(167, 157, 157);
+    box-shadow: #a7a1a1 5px 5px 5px;
+    width: 50%;
     
 }
-.beneficioDos{
-    border: 1px solid #000000;
-    padding: 10px 99px;
-    font-size: 16px;
-    background-color: #eaeaea;
-    margin: 0px 0px 16px; 
-}
-.beneficioTres{
-    border: 1px solid #000000;
-    padding: 10px 99px;
-    color: #212529;
-    font-size: 16px;
-    background-color: #eaeaea;
-    margin: 0px 0px 16px;  
-}
-
-
-h2.recomendados{
-color: #3d3b3a;
-font-size: 30px;
-text-align: center;
-font-weight: bold;
-}
-
-.recomendados{
-    margin:48px 0px;
-    padding: 48px 0px;
-    text-align: center;
-    font-weight: bold;
-}
-
-section.destinos{
-    display: flex;
-    flex-wrap: wrap;
-   flex-direction: row;
-   color: 333333;
-   justify-content: space-around;
-
-}
-
-.destino1{
-    background-color: #e0e0e0;
-    padding: 15px 15px;
-    position: relative;
-    width: 100%;
-
-}
-.destino2{
-    background-color: #ababab;
-    padding: 15px 15px;
-    position: relative;
-    width: 100%;
-    
-}
-.destino3{
-    background-color: #e0e0e0;
-    padding: 15px 15px;
-    position: relative;
-    width: 100%;
-    
-}
-.destino4{
-    background-color: #ababab;
-    padding: 15px 15px;
-    position: relative;
-    width: 100%;
-}
-.listadodestino{
-    color: rgb(51, 51, 51);
-    text-align: start;
-    list-style:none;
-    padding: 0;
-    line-height: 35px;
-}
-
-.precioDestino{
-    color: rgb(61, 59, 58);
-    font-size: 11px;
-    text-align: start;
-    font-weight: 700;
-    line-height: 60px;
-}
-
-li.precio-destino{
-    font-size: 25px;
-    text-align: center;
-    font-weight: 700;
-    color: rgb(51, 51, 51);
-}
-
-.verOferta{
-    margin:auto; 
-    background-color: rgb(190, 4, 4); 
-    border: rgb(190, 6, 6);
-    display: flex;
-    justify-content: center;
-    color: #ffffff;
-    padding: 8px;
-}
-
-section.main-nav-bottom{
-    display: flex;
-    flex-direction: row;
-}
-div.main-bottom{
-    display: flex;
-    flex-direction: column;
-    color: rgb(61, 59, 58);
-    font-size: 15px;
-    text-align: center;
-    font-weight: 700;
+.yourSelection div{
+    border: 1px solid rgb(148, 145, 145);
+    background-color:#eaeaea ;
+    font-family:'Montserrat', sans-serif; 
+    color: #333333;
+    font-size: 10px;
+    margin: 8px;
+    padding: 5px;
     margin: auto;
+    text-align: center;
+}
+.tittle{
+    display: flex;
+
 }
 
+.yourStay{
+    display: flexbox;
+    flex-wrap: wrap;
+    flex-direction:column;
+    position: relative; 
+    left: 150px;
+    border: 1px solid rgb(124, 124, 124);
+    background-color:#eaeaea ;
+    font-family:'Montserrat', sans-serif; 
+    color: #333333;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: min-content;
+}
+a.a{
+    margin: 18px;
+    padding: 5px; 
+    text-decoration: none;
+    background-color: rgb(190, 4, 4);
+    
+}
+.textodescriptivo{
+    border: 1px solid rgb(124, 124, 124);
+    background-color:#eaeaea ;
+    font-family:'Montserrat', sans-serif; 
+    color: #333333;
+    margin: 8px;
+    padding: 5px;
+    text-align: center;  
+    font-size: 10PX; 
+}
+.selectTent{
+    width: 50%; 
+}
+
+img{
+    margin-top: 25px;
+}
+.information{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    
+}
 
 div.left-footer{
     display: flex;
@@ -248,13 +187,13 @@ footer{
     flex-direction: row;
     justify-content: space-around;
     background: #eaeaea;
-    margin: auto;
+   
     
 }
 div.left-footer{
-      margin: auto;
+
      text-align: start;
-     padding-left: 3rem;
+
      padding-top: 3rem;
 }
 
@@ -267,11 +206,11 @@ section.right-footer{
 }
 
 .container{
-    display: flex;
-   justify-content: space-beetwen;
-   display: inline-block;
-   
-   
+   display: flex;
+   flex-direction: column;
+
+   width: 100%;
+ 
 }
 section.bottom-footer{
     display: flex;
@@ -284,15 +223,6 @@ section.bottom-footer{
     padding: 16px;
     
 }
-
-
-.formulario-busqueda{
-    background-color: #d6d5d5;
-    color: rgb(51, 51, 51);
-    padding: 10px;
-}
-
-
 
 .crear {
     margin-left: 2px;
