@@ -52,8 +52,15 @@
         <h3>Busca tu paquete</h3>
         <nav class="barradebusqueda">
             <form action="/productDetail" method="POST">
+                <label for="origin">Origen</label>
+                    <select name="origin" id="origin">
+                    <option value="ba">Buenos Aires</option>
+                    <option value="caba">CABA</option>
+                    <option value="cba">Córdoba</option>
+                    <option value="mza">Mendoza</option>
+                    <option value="rsa">Rosario</option>
+                    </select>
                 <label for="destination">Destino</label>
-
                    <select name="destination" id="destination">
                         <option value="patagonia">Patagonia</option>
                         <option value="lobos">Lobos</option>
@@ -65,8 +72,15 @@
                  <label for="checkoutDate" name="checkoutDate">Check-out</label>
                          <input type="date" name="checkoutDate">
 
-                <label for="pax" name="pax">Pasajeros</label>
-                <select name="Pax" id="pax">
+                <label for="pax" name="pax">Adultos</label>
+                <select name="Pax_a" id="pax_a">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                 </select>
+                 <label for="pax" name="pax">Menores</label>
+                 <select name="Pax_m" id="pax_m"></label>
                     <option value="1">1</option>
                     <option value="2">2</option>
                     <option value="3">3</option>
@@ -154,7 +168,7 @@
         <div class="main-bottom">
              <h2> <strong>Encontrá ofertas para tu próximo destino</strong> </h2>
              <h4>suscribite a nuestro newsletter</h4>
-             <input type="text" class="form-control">
+             <input type="email" class="form-control">
              <input type="button" class="suscribirme" value="Suscribirme">
     </div>
 </section>
