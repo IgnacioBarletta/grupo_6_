@@ -5,118 +5,224 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>weglamp</title>
-    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="/css/productDetail.css">
     <script src="https://kit.fontawesome.com/ede0f8a666.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet"></head>
 </head>
 <body>
     <header>
-        <div class="main-header-top-bar">
-            <img src="/design/weglamp.jpg" width="300">
-            <h2 class="log-in">
-                <a href="/views/login.html">Iniciar Sesion</a> </h2>
-            <h2 class="ayuda">
-                <a href="/view/register.html">Ayuda</a></h2>
+        <section class="top-header">
+            <div>
+                 <img src="/design/weglamp.jpg" width="200">
+             </div>
+    
+             <div class="main-header-top-bar">
+                     <h2 class="log-in">
+                           <a href="/login">Iniciar Sesion</a> </h2>
+                     <h2 class="ayuda">
+                             <a href="/">Volver</a></h2>
             </div>
-            <nav class="main-header-bottom-bar" class="logo"> 
-                <h3>
-                    <a href="#">alojamientos </a></h3>
-                  
-                <h3>
-                    <a href="#">vuelos </a></h3>
-                   
-                <h3>
-                     <a href="#">paquetes </a></h3>
-                    
-                <h3>
-                    <a href="#">seguros </a></h3>
-                  
+        </section>
+        <div class="main-header-bottom-bar"> 
+            <h3>
+                <a href="#">Alojamientos </a></h3>
+              
+            <h3>
+                <a href="#">Vuelos </a></h3>
+               
+            <h3>
+                 <a href="#">Paquetes </a></h3>
+                
+            <h3>
+                <a href="#">Seguros </a></h3>
+        </div>
+    
         
-            </nav>
+        
+    
     </header>
     <main>
         <nav class="main-nav-bar"> 
             <h3>Busca tu paquete</h3>
             <nav class="barradebusqueda">
-                <P>origen</P>
-                <P>destino</P>
-                <p>check-in</p>
-                <p>check out</p>
-                <p>adultos</p>
-                <P>menores</P>
-            </nav>
-            <section class="destinos">
-                <article class="destino electo">destino 
-                    <ul>
-                        <li>vuelo flexible</li>
-                        <li>seguro covid-19</li>
-                        <li>incluye equipaje</li>
-                        <li>$     </li>
-                        <li>descripcion de oferta</li>
-                        <li>fechas</li>
-                    </ul>
-                </article>
-
-                <article class="pago">
-                     <p>domo para x pax standart</p>
-                     <p>usd x por noche</p>
-                    <p>domo para x pax superior</p>
-                    <p>usd x por noche</p>
-                </article>
-
-                <article><a href="#">reservar</a>
-                </article>
+                <form action="/productDetail" method="POST">
+                    <label for="destination">Destino</label>
+    
+                       <select name="destination" id="destination">
+                            <option value="patagonia">Patagonia</option>
+                            <option value="lobos">Lobos</option>
+                            <option value="tigre">Tigre</option>
+                        </select>
+    
+                    <label for="checkinDate" name="checkinDate">Check-in</label>
+                             <input type="date" name="checkinDate">
+                     <label for="checkoutDate" name="checkoutDate">Check-out</label>
+                             <input type="date" name="checkoutDate">
+    
+                    <label for="pax" name="pax">Pasajeros</label>
+                    <select name="Pax" id="pax">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                     </select>
                
-                </section> 
-                <section class="textodescriptivo">
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores, ut sit! Ullam quos culpa vitae. Possimus rem minima quod in quia error, atque tempora incidunt maiores facere debitis non nisi.
-                </p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui iure doloremque velit laudantium eligendi. Numquam fuga dolorem voluptas, doloribus perferendis, aliquam laboriosam magnam recusandae, vitae consequatur impedit quo doloremque ipsa.</p>
-                <p>servicios de alojamientos</p>
-                <p>ubicacion</p>
-                <p>normas del alojamiento</p>
+                <i class="fas fa-search"><button type="submit"> <a href="/productDetail">Buscar</a></button></i> 
+                
+            </form>
+            </nav>
+           
+            <nav class="sindecidir">
+                <p>todavía no he decidido la fecha</p>
+                <div class="switch_container">
+                    <input type="check-box" id="switch">
+                    <label for="switch" class="lbl"></label>
+                    </div>
+              
+            </nav>
+    
+        </nav> 
+        <section class="information">
+            <article class="yourSelection">
+                <div class="tittle">
+                <div><h3>
+                    <form action="/productDetail" method="POST">
+                        <label for="destination">Destino</label>
+        
+                           <select name="destination" id="destination">
+                                <option value="patagonia">Patagonia</option>
+                                <option value="lobos">Lobos</option>
+                                <option value="tigre">Tigre</option>
+                            </select>
+                            </form>
+                </h3></div>
+               
+                <div><h3>
+                    <form action="/productDetail" method="POST">
+                        <label for="checkinDate" name="checkinDate">Check-in</label>
+                        <input type="date" name="checkinDate">    
+                    </form>
+                </h3></div>
+                <div><h3>
+                    <form action="/productDetail" method="POST">
+                        <label for="checkinDate" name="checkinDate">Check-in</label>
+                        <input type="date" name="checkinDate">    
+                    </form>
+                </h3></div>
+                <div><h3><form action="/productDetail" method="POST">
+                    <label for="pax" name="pax">Pasajeros</label>
+                    <select name="Pax" id="pax">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                     </select>
 
-            </section>
+                </form></h3></div>
+            </div>
+                <article class="selectTent">
+                    <IMG src="https://www.ecocamp.travel/hubfs/Standard%20Dome%20EcoCamp%20Patagonia%201920x1281_960.webp" width="150px">
+                        <p>domo para x pax STANDART</p>
+                        <p>usd x por noche</p>
+                        <form action="/productDetail" method="POST">
+                            <label for="amount" name="amount">Cantidad</label>
+                            <select name="amount" id="amount">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                             </select>
+        
+                            </form>
+                    <IMG src="https://www.ecocamp.travel/hubfs/Superior%20Dome%20Interior_960.webp" width="150px">
+                        <p>domo para x pax SUPERIOR</p>
+                        <p>usd x por noche</p>
+                        <form action="/productDetail" method="POST">
+                            <label for="amount" name="amount">Cantidad</label>
+                            <select name="amount" id="amount">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                             </select>
+        
+                            </form>
+                    <IMG src="https://www.ecocamp.travel/hubfs/Suite%20Dome%20EcoCamp%20Patagonia%201920x1281%20(1)_960.webp"width="150px">
+                        <p>domo para x pax SUITE DOME</p>
+                        <p>usd x por noche</p>
+                        <form action="/productDetail" method="POST">
+                            <label for="amount" name="amount">Cantidad</label>
+                            <select name="amount" id="amount">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                             </select>
+        
+                            </form>
+                </article>
+            </article>
+            
+            <article class="yourStay">
+                <h3>Destino</h3>
+                <h3>check in date + horario 15hs</h3>
+                <h3>check out date + Horario 12hs</h3>
+                <h3>Total de pax</h3>
+                <h3>Total $$</h3>
+                <a class="a" href="#">Reservar</a>
+                <div class="textodescriptivo">
+                    <p>servicios</p>
+                    <p>servicios de alojamientos</p>
+                    <p>ubicacion</p>
+                    <p>normas del alojamiento</p>
+    
+                </div>
+            </article>
+        </section>
+
+        
     </main>
     <footer>
     
-        <div class="left-footer"><img src="/design/weglamp.jpg" width="250">
-            <p>texto</p>
-            <section class="redes">
-            <i class="fab fa-facebook-f"></i>
-            <i class="fab fa-twitter"></i>
-            <i class="fab fa-instagram"></i>
-            <i class="fab fa-youtube"></i>
-            <i class="fab fa-whatsapp"></i>
-        </section>
-        </div>
-        <section class="right-footer">
-            <ul>
-                <H4>Servicios</H4>
-                <li><a href="#">Alojamientos</a></li>
-                <li><a href="#">Paquetes</a></li>
-                <li><a href="#">Aereos</a></li>
-                <li><a href="#">Seguros</a></li>
-               
-                </ul>
+        <div class="container">
+            <div class="left-footer"><img src="/design/weglamp.jpg" width="300">
+                <p>Breve texto explicativo acerca de nuestra marca</p>
+                    <section class="redes">
+                         <i class="fab fa-facebook-f"></i>
+                         <i class="fab fa-twitter"></i>
+                         <i class="fab fa-instagram"></i>
+                         <i class="fab fa-youtube"></i>
+                         <i class="fab fa-whatsapp"></i>
+                     </section>
+            </div>
+                    <section class="right-footer">
+                       <ul type="none">
+                          <H4>Descubriendo mas..</H4>
+                               <li><a href="/queEs">¿Que es Glamping?</a></li>
+                              <li><a href="/tipos">Tipos de Glamping</a></li>
+                              <li><a href="/seisRazones">6 razones para hacer glamping</a></li>
+                              <li><a href="/masInfo">Mas Info..</a></li>
+                       </ul>
+            
+                        <ul type="none">
+                            <H4>Empresa</H4>
+                            <li><a href="#">Quienes somos</a></li>
+                            <li><a href="#">términos y condiciones</a></li>
+                            <li><a href="#">políticas de privacidad</a></li> 
+                            <li><a href="#">FAQ's</a></li>
+                            </ul>
+                     </section>
+         </div>
+            <section class="bottom-footer">
+                <p>Copyright</p>
+                <p><a href="#">Políticas de privacidad</a>
+                </p>
+                <p><a href="#">Terminos y condiciones</a></p>
         
-                <ul>
-                    <H4>Empresa</H4>
-                    <li><a href="#">Quienes somos</a></li>
-                    <li><a href="#">términos y condiciones</a></li>
-                    <li><a href="#">políticas de privacidad</a></li> 
-                    <li><a href="#">FAQ's</a></li>
-                    </ul>
-        </section>
-        <section class="bottom-footer">
-            <img src="/design/weglamp.jpg" width="100">
-            <p>copyright</p>
-            <p><a href="#">políticas de privacidad</a>
-            </p>
-            <p><a href="#">>terminos y condiciones</a></p>
-    
-        </section>
-    
-    
+            </section>
+        
+        
     </footer>
 </body>
 </html>
