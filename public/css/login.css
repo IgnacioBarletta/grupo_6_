@@ -82,7 +82,7 @@ h3 {
     width: 280px;
     height: 48px;
     opacity: 1;
-    background-color: rgb(38, 38, 38);
+    background-color: red;
     color: white;
     margin-bottom: 20px;
     border-style: none;
@@ -93,7 +93,7 @@ hr {
     left: 527px;
     width: 65px;
     height: 0px;
-    border: 1px solid #CFCFCF;
+    border: 1px solid red;
     opacity: 1;
 }
 

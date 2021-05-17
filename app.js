@@ -41,6 +41,6 @@ app.get('/qmasInfo', (req,res) => {
     res.sendFile(path.resolve(__dirname, './views/masInfo.html'));
 });
 
-app.get('/qmasInfo', (req,res) => {
+app.get('/ayuda', (req,res) => {
     res.sendFile(path.resolve(__dirname, './views/ayuda.html'));
 });

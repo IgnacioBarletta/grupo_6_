@@ -1,6 +1,6 @@
 {
   "name": "grupo_6_",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "https://trello.com/invite/b/VdvcE4XD/45eb39ae97ab0b95f68aa2142ea6a14d/grupo6sprint1",
   "main": "app.js",
   "scripts": {
@@ -18,5 +18,6 @@
   "homepage": "https://github.com/IgnacioBarletta/grupo_6_#readme",
   "dependencies": {
     "express": "^4.17.1"
-  }
+  },
+  "devDependencies": {}
 }

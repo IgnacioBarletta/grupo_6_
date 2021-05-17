@@ -66,25 +66,76 @@ h3 {
     margin-top: 30px;
 }
 
-.campo_usuario {
+.campo_nombre {
+    width: 135px;
+    height: 48px;
+    opacity: 1;
+}
+
+.campo_apellido {
+    width: 135px;
+    height: 48px;
+    opacity: 1;
+    margin-left: 10px;
+}
+
+.campo_correo {
+    width: 280px;
+    height: 48px;
+    opacity: 1;
+    margin-top: 10px;
+}
+
+.campo_asunto {
     width: 280px;
     height: 48px;
     opacity: 1;
 }
 
-.campo_tema {
+.campo_consulta {
+    width: 280px;
+    height: 150px;
+    opacity: 1;
+}
+
+.enviar {
     width: 280px;
     height: 48px;
     opacity: 1;
+    background-color: red;
+    color: white;
+    margin-bottom: 10px;
+    border-style: none;
 }
 
 hr {
-    top: 538px;
-    left: 527px;
     width: 65px;
     height: 0px;
-    border: 1px solid #CFCFCF;
+    border: 1px solid red;
     opacity: 1;
+}
+
+.usuario_crear {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    margin-top: -10px;
+}
+
+.crear {
+    margin: 10px;
+    text-decoration: none;
+}
+
+.redes {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    font-size: 40px;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin-right: 30px;
 }
 
 .derecha_arriba {
@@ -97,10 +148,12 @@ hr {
     font-size: 50px;
 }
 
-i {
-    color: black;
+.nombre_apellido {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
-.campo.text_del_usuario {
-    
+i {
+    color: black;
 }

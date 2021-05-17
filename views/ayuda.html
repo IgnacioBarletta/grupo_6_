@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/ayuda.css">
     <script src="https://kit.fontawesome.com/ede0f8a666.js" crossorigin="anonymous"></script>
-    <title>Formulario de ayuda</title>
+    <title>Ayuda</title>
 
 </head>
     <body>
@@ -18,17 +18,26 @@
 
             <section class="izquierda">
                 <h1>Solicitar ayuda</h1>
+            
             <section class="form">
                 <p></p>
-                <input type="text" class="campo_usuario" placeholder="Usuario o e-mail"><br>
+                <div class="nombre_apellido">
+                <input type="text" class="campo_nombre" placeholder="Nombre"><br>
                 <p></p>
-                <input type="text" class="campo_tema" placeholder="Tema de consulta">
+                <input type="text" class="campo_apellido" placeholder="Apellido">
                 <p></p>
-                <input type="text" class="texto_del_usuario">
-                <input type="submit" class="Enviar" value="Enviar">
+                </div>
+                <input type="text" class="campo_correo" placeholder="Correo electrónico">
+                <p></p>
+                <input type="text" class="campo_asunto" placeholder="Asunto">
+                <p></p>
+                <input type="text" class="campo_consulta" placeholder="Ingrese aquí su consulta">
+                <p></p>
+                <input type="button" class="enviar" value="Enviar">
+            </section>
 
             </section>
-            
+
             <section class="derecha_arriba">
                 <div class="cruz">
                 <a href="/"><i class="far fa-times-circle"></i></a>
@@ -39,6 +48,7 @@
                 <img src="/images/weglamp-vert.png" alt="foto" class="imagen">
             </section>
         </div>
+
         </main>
     </body>
 
