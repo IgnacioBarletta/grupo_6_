@@ -210,8 +210,8 @@ li.precio-destino{
 
 .verOferta{
     margin:auto; 
-    background-color: rgb(190, 4, 4); 
-    border: rgb(190, 6, 6);
+    background-color: red; 
+    border: red;
     display: flex;
     justify-content: center;
     color: #ffffff;
@@ -386,4 +386,15 @@ section.bottom-footer{
   
   .form-switch input:checked + i::after { 
       transform: translate3d(22px, 2px, 0); 
+    }
+
+    .suscribirme{
+        margin:auto; 
+        background-color: red; 
+        border: red;
+        display: flex;
+        justify-content: center;
+        color: #ffffff;
+        padding: 8px;
+        margin-top: 5px;
     }
