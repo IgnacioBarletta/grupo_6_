@@ -52,35 +52,33 @@
         <h3>Busca tu paquete</h3>
         <nav class="barradebusqueda">
             <form action="/productDetail" method="POST">
-                <label for="origin">Origen</label>
-                    <select name="origin" id="origin">
+                    <select name="origen" id="origen">
+                    <option value="origen">Origen</option>
                     <option value="ba">Buenos Aires</option>
                     <option value="caba">CABA</option>
                     <option value="cba">Córdoba</option>
                     <option value="mza">Mendoza</option>
                     <option value="rsa">Rosario</option>
                     </select>
-                <label for="destination">Destino</label>
-                   <select name="destination" id="destination">
+                   <select name="destino" id="destino">
+                    <option value="destino">Destino</option>
                         <option value="patagonia">Patagonia</option>
                         <option value="lobos">Lobos</option>
                         <option value="tigre">Tigre</option>
                     </select>
 
-                <label for="checkinDate" name="checkinDate">Check-in</label>
                          <input type="date" name="checkinDate">
-                 <label for="checkoutDate" name="checkoutDate">Check-out</label>
                          <input type="date" name="checkoutDate">
 
-                <label for="pax" name="pax">Adultos</label>
                 <select name="Pax_a" id="pax_a">
+                    <option value="adultos">Adultos</option>
                     <option value="1">1</option>
                     <option value="2">2</option>
                     <option value="3">3</option>
                     <option value="4">4</option>
                  </select>
-                 <label for="pax" name="pax">Menores</label>
                  <select name="Pax_m" id="pax_m"></label>
+                    <option value="menores">Menores</option>
                     <option value="1">1</option>
                     <option value="2">2</option>
                     <option value="3">3</option>

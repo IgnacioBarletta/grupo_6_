@@ -76,9 +76,8 @@ nav h3{
 nav.barradebusqueda form{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
     padding-top: 12px;
-   
+    justify-content: center;
 }
 
 i button{
@@ -91,6 +90,7 @@ i button{
 i.fas.fa-search{ 
     font-size: 1.5em;
     color: red;
+    margin-left: 20px;
 }
 nav.sindecidir{
     display: flex;
