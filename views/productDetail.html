@@ -44,24 +44,28 @@
     </header>
     <main>
         <nav class="main-nav-bar"> 
-            <h3>Busca tu paquete</h3>
+            <h3>Buscá tu paquete</h3>
             <nav class="barradebusqueda">
                 <form action="/productDetail" method="POST">
-                    <label for="destination">Destino</label>
-    
-                       <select name="destination" id="destination">
+                       <select name="destino" id="destino">
+                        <option value="destino">Destino</option>
                             <option value="patagonia">Patagonia</option>
                             <option value="lobos">Lobos</option>
                             <option value="tigre">Tigre</option>
                         </select>
     
-                    <label for="checkinDate" name="checkinDate">Check-in</label>
                              <input type="date" name="checkinDate">
-                     <label for="checkoutDate" name="checkoutDate">Check-out</label>
                              <input type="date" name="checkoutDate">
     
-                    <label for="pax" name="pax">Pasajeros</label>
-                    <select name="Pax" id="pax">
+                    <select name="Pax_a" id="pax_a">
+                        <option value="adultos">Adultos</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                     </select>
+                     <select name="Pax_m" id="pax_m"></label>
+                        <option value="menores">Menores</option>
                         <option value="1">1</option>
                         <option value="2">2</option>
                         <option value="3">3</option>
@@ -74,11 +78,11 @@
             </nav>
            
             <nav class="sindecidir">
-                <p>todavía no he decidido la fecha</p>
                 <div class="switch_container">
-                    <input type="check-box" id="switch">
-                    <label for="switch" class="lbl"></label>
+                    <label class="form-switch">
+                        <input type="checkbox"> <i></i>No he decidido las fechas</label>
                     </div>
+            </nav>
               
             </nav>
     
