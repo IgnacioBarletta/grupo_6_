@@ -37,7 +37,7 @@ app.get('/seisRazones', (req,res) => {
     res.sendFile(path.resolve(__dirname, './views/seisRazones.html'));
 });
 
-app.get('/qmasInfo', (req,res) => {
+app.get('/masInfo', (req,res) => {
     res.sendFile(path.resolve(__dirname, './views/masInfo.html'));
 });
 
