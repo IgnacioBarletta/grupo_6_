@@ -28,7 +28,7 @@ div.main-header-top-bar {
 }
 div.main-header-top-bar h2 a{
     margin: 6px;
-    background-color: #6c757d;
+    background-color: red;
     padding: 6px 12px;
     font-size: 16px;
     text-align: center;
@@ -91,13 +91,16 @@ i button{
 
 i.fas.fa-search{ 
     font-size: 1.5em;
+    color: red;
+    margin-left: 20px;
 }
 nav.sindecidir{
     display: flex;
     flex-wrap: wrap;
-    justify-content: flex-start;
-    margin:16px 0px 0px;
+    justify-content: center;
+    margin:15px 0px 0px;
     padding: 0px 0px 0px 20px;
+    width: 100%;
 }
 
 .yourSelection{
@@ -145,7 +148,7 @@ a.a{
     margin: 18px;
     padding: 5px; 
     text-decoration: none;
-    background-color: rgb(190, 4, 4);
+    background-color: red;
     
 }
 .textodescriptivo{

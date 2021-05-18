@@ -77,7 +77,7 @@ nav.barradebusqueda form{
     display: flex;
     flex-wrap: wrap;
     padding-top: 12px;
-    justify-content: center;
+    justify-content: space-around;
 }
 
 i button{
@@ -113,7 +113,7 @@ section.beneficio{
 
 .beneficioUno{
     border: 1px solid #000000;
-    padding: 10px 99px;
+    padding: 10px 20px;
     font-size: 16px;
     background-color: #eaeaea;
     margin: 0px 0px 16px; 
@@ -121,14 +121,14 @@ section.beneficio{
 }
 .beneficioDos{
     border: 1px solid #000000;
-    padding: 10px 99px;
+    padding: 10px 20px;
     font-size: 16px;
     background-color: #eaeaea;
     margin: 0px 0px 16px; 
 }
 .beneficioTres{
     border: 1px solid #000000;
-    padding: 10px 99px;
+    padding: 10px 20px;
     color: #212529;
     font-size: 16px;
     background-color: #eaeaea;
@@ -144,8 +144,8 @@ font-weight: bold;
 }
 
 .recomendados{
-    margin:48px 0px;
-    padding: 48px 0px;
+    margin:28px 0px;
+    padding: 28px 0px;
     text-align: center;
     font-weight: bold;
 }
@@ -164,6 +164,7 @@ section.destinos{
     padding: 15px 15px;
     position: relative;
     width: 100%;
+    text-align: center;
 
 }
 .destino2{
@@ -171,6 +172,7 @@ section.destinos{
     padding: 15px 15px;
     position: relative;
     width: 100%;
+    text-align: center;
     
 }
 .destino3{
@@ -178,6 +180,7 @@ section.destinos{
     padding: 15px 15px;
     position: relative;
     width: 100%;
+    text-align: center;
     
 }
 .destino4{
@@ -185,10 +188,11 @@ section.destinos{
     padding: 15px 15px;
     position: relative;
     width: 100%;
+    text-align: center;
 }
 .listadodestino{
     color: rgb(51, 51, 51);
-    text-align: start;
+    text-align: center;
     list-style:none;
     padding: 0;
     line-height: 35px;

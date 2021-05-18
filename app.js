@@ -44,3 +44,15 @@ app.get('/qmasInfo', (req,res) => {
 app.get('/ayuda', (req,res) => {
     res.sendFile(path.resolve(__dirname, './views/ayuda.html'));
 });
+app.get('/quienesSomos', (req,res) => {
+    res.sendFile(path.resolve(__dirname, './views/quienesSomos.html'));
+});
+app.get('/FAQ', (req,res) => {
+    res.sendFile(path.resolve(__dirname, './views/FAQ.html'));
+});
+app.get('/terminos', (req,res) => {
+    res.sendFile(path.resolve(__dirname, './views/terminos.html'));
+});
+app.get('/privacidad', (req,res) => {
+    res.sendFile(path.resolve(__dirname, './views/privacidad.html'));
+});
