@@ -101,6 +101,21 @@ nav.sindecidir{
     width: 100%;
 }
 
+div.team.active{
+   text-align: center;
+}
+
+.carousel-inner{
+    border: 1px solid #000000;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #eaeaea;
+    display: flex;
+    flex-wrap: wrap;
+   
+    justify-content:center;
+
+}
 section.beneficio{
     display: flex;
     flex-wrap: wrap;
@@ -119,6 +134,8 @@ section.beneficio{
     margin: 0px 0px 16px; 
     
 }
+
+
 .beneficioDos{
     border: 1px solid #000000;
     padding: 10px 20px;
@@ -269,6 +286,7 @@ section.right-footer{
     flex-direction: row;
     justify-content: flex-end;
     color: #808080;
+    
 }
 
 .container{

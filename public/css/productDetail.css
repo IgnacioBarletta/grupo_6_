@@ -38,9 +38,11 @@ div.main-header-top-bar h2 a{
 
 div.main-header-bottom-bar h3 a{
     display: inline-flex;
-    color: #212529;
+    color:#3d3b3a;
     font-size: 16px;
     margin-left: 15px;
+    text-decoration: none;
+    font-weight: lighter;
  
 
 }
@@ -158,8 +160,8 @@ a.a{
     color: #333333;
     margin: 8px;
     padding: 5px;
-    text-align: center;  
-    font-size: 10PX; 
+    text-align: start;  
+    font-size: 15PX; 
 }
 .selectTent{
     width: 50%; 

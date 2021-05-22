@@ -4,7 +4,7 @@
     box-sizing: border-box;
     padding: 0;
     border: 0;
-    background-color:#e9ebed;
+  
     font-family: 'Montserrat', sans-serif;
   
     
@@ -25,6 +25,10 @@ div.container{
     padding: 24px;
     margin: 16px 15px 0p;
 }
+h1{
+    font-size: 16px;
+    text-align: center;
+}
 img{
     display:flex;
     justify-content: flex-start;
@@ -43,3 +47,19 @@ div.main-header-top-bar h2 a{
     text-align: center;
     color: #ffffff;
 }
+div.team.active{
+    text-align: center;
+    font-size: 16px;
+ }
+
+ .carousel-inner{
+     border: 1px solid #000000;
+     padding: 10px 20px;
+     font-size: 16px;
+     background-color: #eaeaea;
+     display: flex;
+     flex-wrap: wrap;
+    
+     justify-content:center;
+ 
+ }
