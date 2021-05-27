@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>weglamp</title>
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="https://kit.fontawesome.com/ede0f8a666.js" crossorigin="anonymous"></script>
+
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+     <link rel="preconnect" href="https://fonts.gstatic.com">
+     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+
+    
+</head>
+
+<body>
+
+<header>
+    <section class="top-header">
+        <div>
+             <img src="/images/weglamp.png" width="200">
+         </div>
+
+         <div class="main-header-top-bar">
+                 <h2 class="log-in">
+                       <a href="/user/login">Iniciar Sesion</a> </h2>
+                 <h2 class="register">
+                       <a href="/user/register">Registrarme</a> </h2>
+                 <h2 class="ayuda">
+                         <a href="/main/ayuda">Ayuda</a></h2>
+        </div>
+    </section>
+    <div class="main-header-bottom-bar"> 
+        <h3>
+            <a href="#">Alojamientos </a></h3>
+                     
+        <h3>
+             <a href="#">Paquetes </a></h3>
+            
+        <h3>
+            <a href="#">Seguros </a></h3>
+    </div>
+
+    
+    
+
+</header>
+
+<main>
+    <nav class="main-nav-bar"> 
+        <h3>Buscá tu paquete</h3>
+        <nav class="barradebusqueda">
+            <form action="/productDetail" method="POST">
+                   <select name="destino" id="destino">
+                    <option value="destino">Destino</option>
+                        <option value="patagonia">Patagonia</option>
+                        <option value="lobos">Lobos</option>
+                        <option value="tigre">Tigre</option>
+                    </select>
+
+                         <input type="date" name="checkinDate">
+                         <input type="date" name="checkoutDate">
+
+                <select name="Pax_a" id="pax_a">
+                    <option value="adultos">Adultos</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                 </select>
+                 <select name="Pax_m" id="pax_m"></label>
+                    <option value="menores">Menores</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                 </select>
+           
+            <i class="fas fa-search"><button type="submit"> <a href="/booking/productDetail">Buscar</a></button></i> 
+            
+        </form>
+        </nav>
+       
+        
+        <nav class="sindecidir">
+            <div class="switch_container">
+                <label class="form-switch">
+                    <input type="checkbox"> <i></i>No he decidido las fechas</label>
+                </div>
+        </nav>
+
+    </nav> 
+   
+    <section class="beneficio">
+        <article class="beneficioUno"> 
+            <img src="https://www.glampingsandat.com/wp-content/uploads/2016/12/glamping-sandat-resort-price.jpg" width="100%">
+        </article>
+
+    </section>
+<!--
+    <section class="beneficio">
+        <article class="beneficioUno"> 
+            <img src="https://media.glampinghub.com/CACHE/images/accommodations/triple-dome-1564503752962/889db11910bf7855bb68444297bd69b1.jpg" width=200px height="128px" >
+        </article>
+        <article class="beneficioUno"> 
+            <img src="https://www.revistavagari.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2021/02/Artboard-60-100.jpg.webp" width=200px height="128px" >
+        </article>
+        <article class="beneficioDos"> 
+            <img src="https://refugio31.com/wp-content/uploads/2017/06/home_02.jpg" width=200px height="128px">
+        </article>
+        <article class="beneficioTres"> 
+            <img src="https://media.glampinghub.com/CACHE/images/accommodations/huemules-dome-1540906481811/5eb0903da5542e9b6a1c21201cb083b6.jpg"width=200px height="128px">
+        </article>
+        <article class="beneficioTres"> 
+            <img src="https://media.glampinghub.com/CACHE/images/accommodations/unique-whale-excursions-in-patagonia-chile-1531133642580/62bd7397d63ff98494a11debd604b3f6.JPG"width=200px height="128px">
+        </article>
+    </section>-->
+    <h2 class="recomendados">Recomendados del Mes</h2>
+    <section class="destinos">
+    <article>
+        <h3 class="destino1">Tigre</h3>
+        <ul type="none" class="destino1">
+            <li class="listadodestino">Delta, Argentina</li>
+            <li class="listadodestino">seguro covid-19</li>
+            <li class="listadodestino">traslados in/out</li>
+            <li class="precio-destino">Valido mes: Junio</li>
+            <li class="precioDestino">3 noches con desayuno</li>
+            <button type="submit" class="verOferta">$ 15.000<br>Consultar</button>
+
+        </ul>
+    </article>
+    <article>
+        <h3 class="destino2">El Calafate</h3>    
+        <ul type="none" class="destino2">
+            <li class="listadodestino">Santa Cruz,Argentina</li>
+            <li class="listadodestino">seguro covid-19</li>
+            <li class="listadodestino">traslados in/out</li>
+            <li class="precio-destino">Valido mes: Junio</li>
+            <li class="precioDestino">4 noches con desayuno</li>
+            <button type="submit" class="verOferta">$ 25.000<br>Consultar</button>
+        </ul>
+    </article>
+    <article>
+        <h3 class="destino3">Esquel</h3>
+        <ul type="none" class="destino3">
+            <li class="listadodestino">Cubut,Argentina</li>
+            <li class="listadodestino">seguro covid-19</li>
+            <li class="listadodestino">traslados in/out</li>
+            <li class="precio-destino">Valido mes: Junio</li>
+            <li class="precioDestino">5 noches con desayuno</li>
+            <button type="submit" class="verOferta">$ 28.000<br>Consultar</button>
+            
+        </ul>
+    </article>
+    <article>
+
+    <h3 class="destino4">Lobos</h3>
+        <ul type="none" class="destino4">
+            <li class="listadodestino">BuEnos Aires</li>
+            <li class="listadodestino">seguro covid-19</li>
+            <li class="listadodestino">traslados in/out</li>
+            <li class="precio-destino">Valido mes: Junio</li>
+            <li class="precioDestino">3 noches con desayuno</li>
+            <button type="submit" class="verOferta">$ 20.000<br>Consultar</button>
+        </ul>
+    </article>
+</section>
+<section class="main-nav-bottom">
+    
+        <img src="https://www.arquitecturaydiseno.es/medio/2019/05/16/[08]terlingua_c4505cae_1500x1000.jpg" width="700" alt="">
+        <div class="main-bottom">
+             <h2> <strong>Encontrá ofertas para tu próximo destino</strong> </h2>
+             <h4>suscribite a nuestro newsletter</h4>
+             <input type="email" class="form-control">
+             <input type="button" class="suscribirme" value="Suscribirme">
+    </div>
+</section>
+</main>
+<footer>
+<div class="container">
+    <div class="left-footer"><img src="/images/weglamp.png" width="300">
+        <p></p>
+        <p>En WEGLAMP vas a vivir la experiencia de acampar al aire libre<br> con las condiciones propias de un hotel 5 estrellas.
+        </p>
+            <section class="redes">
+                 <i class="fab fa-facebook-f"></i>
+                 <i class="fab fa-twitter"></i>
+                 <i class="fab fa-instagram"></i>
+                 <i class="fab fa-youtube"></i>
+                 <i class="fab fa-whatsapp"></i>
+             </section>
+    </div>
+            <section class="right-footer">
+               <ul type="none">
+                  <H4>Descubriendo mas..</H4>
+                       <li><a href="/about/queEs">¿Que es Glamping?</a></li>
+                      <li><a href="/about/tipos">Tipos de Glamping</a></li>
+                      <li><a href="/about/seisRazones">6 razones para hacer glamping</a></li>
+                      <li><a href="/about/masInfo">Mas Info..</a></li>
+               </ul>
+    
+                <ul type="none">
+                    <H4>Empresa</H4>
+                    <li><a href="/about/quienesSomos">Quienes somos</a></li>
+                    <li><a href="/about/terminos">términos y condiciones</a></li>
+                    <li><a href="/about/privacidad">políticas de privacidad</a></li> 
+                    <li><a href="/about/FAQ">FAQ's</a></li>
+                    </ul>
+             </section>
+ </div>
+    <section class="bottom-footer">
+        <p>weglamp®️ - 2021 - Todos los derechos reservados</p>
+        <p><a href="/about/privacidad">Políticas de privacidad</a>
+        </p>
+        <p><a href="/about/terminos">Terminos y condiciones</a></p>
+
+    </section>
+
+
+</footer>
+
+</body>
+
+
+</html>
