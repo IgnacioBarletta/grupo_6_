@@ -2,11 +2,11 @@ const path = require('path')
 
 const mainControllers = {
     index: (req, res) => {
-        res.sendFile(path.resolve(__dirname,"../views/index.html" ))
+        res.render('index')
     },
 
     ayuda: (req, res) => {
-            res.sendFile(path.resolve(__dirname,"../views/ayuda.html" ))
+            res.render('ayuda')
      },
 }
 

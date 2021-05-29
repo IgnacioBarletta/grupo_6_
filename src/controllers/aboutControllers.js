@@ -2,28 +2,28 @@ const path = require('path')
 
 const aboutControllers = {
     FAQ: (req, res) => {
-        res.sendFile(path.resolve(__dirname,"../views/FAQ.html" ))
+        res.render('footer/FAQ')
     },
     masInfo: (req, res) => {
-        res.sendFile(path.resolve(__dirname,"../views/masInfo.html"))
+        res.render('footer/masInfo')
     },
     privacidad: (req, res) => {
-        res.sendFile(path.resolve(__dirname,"../views/privacidad.html"))
+        res.render('footer/privacidad')
     },
     queEs: (req, res) => {
-        res.sendFile(path.resolve(__dirname,"../views/queEs.html"))
+        res.render('footer/queEs')
     },
     quienesSomos: (req, res) => {
-        res.sendFile(path.resolve(__dirname,"../views/quienesSomos.html"))
+        res.render('footer/quienesSomos')
     },
     seisRazones: (req, res) => {
-        res.sendFile(path.resolve(__dirname,"../views/seisRazones.html"))
+        res.render('footer/seisRazones')
     },
     terminos: (req, res) => {
-        res.sendFile(path.resolve(__dirname,"../views/terminos.html"))
+        res.render('footer/terminos')
     },
     tipos: (req, res) => {
-        res.sendFile(path.resolve(__dirname,"../views/tipos.html"))
+        res.render('footer/tipos')
     },
 }
 
