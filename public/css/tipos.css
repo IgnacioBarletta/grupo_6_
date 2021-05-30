@@ -60,7 +60,7 @@ ul p{
 
  .top-header{
     display: flex;
-    flex-wrap: wrap;
+
     flex-direction: row;
     justify-content: space-between;
     padding: 24px;
@@ -87,3 +87,38 @@ div.main-header-top-bar h2 a{
     color: #ffffff;
 }
 
+@media (max-width:768px){
+  
+    i.fas.fa-bars{
+          font-size: 1.5em;
+          text-align: center;
+          color: red;
+          border: 1px red solid;
+          padding:5px;
+          margin:auto;
+     
+       }
+       body ul{
+      
+        flex-wrap: nowrap;
+        display: block;
+        align-items: center;
+        margin: auto;
+        padding: 0%;
+    }
+    body ul li{
+        width:90vw;
+        padding: 0%;
+       margin: auto;
+    }
+       div.main-header-top-bar{
+           display: none;
+       }
+    }
+    @media(min-width:769px){
+        i.fas.fa-bars{
+            display:none;
+        }
+
+    }
+    

@@ -63,3 +63,26 @@ div.team.active{
      justify-content:center;
  
  }
+ 
+@media (max-width:768px){
+
+ 
+    i.fas.fa-bars{
+          font-size: 1.5em;
+          text-align: center;
+          color: red;
+          border: 1px red solid;
+          padding:5px;
+          margin-right: 10px;
+     
+       }
+       div.main-header-top-bar{
+           display: none;
+       }
+    }
+    @media(min-width:769px){
+        i.fas.fa-bars{
+            display:none;
+        }
+
+    }

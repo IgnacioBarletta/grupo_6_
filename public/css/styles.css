@@ -105,17 +105,6 @@ div.team.active{
    text-align: center;
 }
 
-.carousel-inner{
-    border: 1px solid #000000;
-    padding: 10px 20px;
-    font-size: 16px;
-    background-color: #eaeaea;
-    display: flex;
-    flex-wrap: wrap;
-   
-    justify-content:center;
-
-}
 section.beneficio{
     display: flex;
     flex-wrap: wrap;
@@ -422,3 +411,40 @@ section.bottom-footer{
         margin-top: 5px;
     }
 
+
+    @media (max-width:768px){
+
+ 
+        i.fas.fa-bars{
+              font-size: 1.5em;
+              text-align: center;
+              color: red;
+              border: 1px red solid;
+              padding:5px;
+              margin-right: 10px;
+         
+           }
+           div.main-header-top-bar{
+               display: none;
+           }
+           div.main-header-bottom-bar{
+               display: none;
+           }
+           .main-nav-bar{
+               display: none;
+           }
+        section.main-nav-bottom img{
+            display: none;
+        }
+        section.right-footer{
+            display: none;
+        }
+       
+
+        }
+        @media(min-width:769px){
+            i.fas.fa-bars{
+                display:none;
+            }
+    
+        }

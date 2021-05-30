@@ -32,7 +32,7 @@ div img{
 
  .top-header{
     display: flex;
-    flex-wrap: wrap;
+  
     flex-direction: row;
     justify-content: space-between;
     padding: 24px;
@@ -57,4 +57,32 @@ div.main-header-top-bar h2 a{
     text-align: center;
     color: #ffffff;
 }
+
+@media (max-width:768px){
+
+ 
+    i.fas.fa-bars{
+          font-size: 1.5em;
+          text-align: center;
+          color: red;
+          border: 1px red solid;
+          padding:5px;
+          margin: auto;
+       }
+       div.main-header-top-bar{
+           display: none;
+       }
+       body div{
+           display: block;
+       }
+       img{
+           width: 100%;
+       }
+    }
+    @media(min-width:769px){
+        i.fas.fa-bars{
+            display:none;
+        }
+
+    }
 
