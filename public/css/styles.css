@@ -439,12 +439,20 @@ section.bottom-footer{
         section.right-footer{
             display: none;
         }
-       
+        div.tittle{
+            display:inherit;  
+        }
+        .right-footer{
+            display: none;
+        }
 
         }
         @media(min-width:769px){
             i.fas.fa-bars{
                 display:none;
             }
-    
+            .footer_mobile{
+                display: none;
+               
+            }
         }
