@@ -9,5 +9,16 @@ bookingRoutes.get('/productDetail', bookingControllers.productDetail)
 
 /*
 aboutRoutes.get('/detail/:id', planetsController.detail)
+
+///para solicitar una lista de productos//
+const express = require('express');
+const router = express.Router();
+router.get("/productos",function(req, res){
+
+    res.send(req.query);
+})
+
+
+
 */
 module.exports = bookingRoutes

@@ -1,0 +1,327 @@
+{ "productos" : [
+    {
+        "id":1,
+        "name":"standart",
+        "destination":"patagonia",
+        "pax":1,
+        "prize":10000
+
+
+    },
+    {
+        "id":2,
+        "name":"superior",
+        "destination":"patagonia",
+        "pax":1,
+        "prize":10000
+
+
+    },
+    {
+        "id":3,
+        "name":"suit DOME",
+        "destination":"patagonia",
+        "pax":1,
+        "prize":10000
+
+
+    },
+    {
+        "id":4,
+        "name":"standart",
+        "destination":"patagonia",
+        "pax":2,
+        "prize":15000
+
+
+    },
+    {
+        "id":5,
+        "name":"superior",
+        "destination":"patagonia",
+        "pax":2,
+        "prize":15000
+
+
+    },
+    {
+        "id":6,
+        "name":"suit DOME",
+        "destination":"patagonia",
+        "pax":2,
+        "prize":15000
+
+
+    },
+    {
+        "id":7,
+        "name":"standart",
+        "destination":"patagonia",
+        "pax":3,
+        "prize":20000
+
+
+    },
+    {
+        "id":8,
+        "name":"superior",
+        "destination":"patagonia",
+        "pax":3,
+        "prize":20000
+
+
+    },
+    {
+        "id":9,
+        "name":"suit DOME",
+        "destination":"patagonia",
+        "pax":3,
+        "prize":20000
+
+
+    },
+    {
+        "id":10,
+        "name":"standart",
+        "destination":"patagonia",
+        "pax":4,
+        "prize":25000
+
+
+    },
+    {
+        "id":11,
+        "name":"superior",
+        "destination":"patagonia",
+        "pax":4,
+        "prize":25000
+
+
+    },
+    {
+        "id":12,
+        "name":"suit DOME",
+        "destination":"patagonia",
+        "pax":4,
+        "prize":25000
+
+
+    },
+    {
+        "id":13,
+        "name":"standart",
+        "destination":"tigre",
+        "pax":1,
+        "prize":9000
+
+
+    },
+    {
+        "id":14,
+        "name":"superior",
+        "destination":"tigre",
+        "pax":1,
+        "prize":9000
+
+
+    },
+    {
+        "id":15,
+        "name":"suit DOME",
+        "destination":"tigre",
+        "pax":1,
+        "prize":9000
+
+
+    },
+    {
+        "id":16,
+        "name":"standart",
+        "destination":"tigre",
+        "pax":2,
+        "prize":14000
+
+
+    },
+    {
+        "id":17,
+        "name":"superior",
+        "destination":"tigre",
+        "pax":2,
+        "prize":14000
+
+
+    },
+    {
+        "id":18,
+        "name":"suit DOME",
+        "destination":"tigre",
+        "pax":2,
+        "prize":14000
+
+
+    },
+    {
+        "id":19,
+        "name":"standart",
+        "destination":"tigre",
+        "pax":3,
+        "prize":19000
+
+
+    },
+    {
+        "id":20,
+        "name":"superior",
+        "destination":"tigre",
+        "pax":3,
+        "prize":19000
+
+
+    },
+    {
+        "id":21,
+        "name":"suit DOME",
+        "destination":"tigre",
+        "pax":3,
+        "prize":19000
+
+
+    },
+    {
+        "id":22,
+        "name":"standart",
+        "destination":"tigre",
+        "pax":4,
+        "prize":24000
+
+
+    },
+    {
+        "id":23,
+        "name":"superior",
+        "destination":"tigre",
+        "pax":4,
+        "prize":24000
+
+
+    },
+    {
+        "id":24,
+        "name":"suit DOME",
+        "destination":"tigre",
+        "pax":4,
+        "prize":24000
+
+
+    },
+    {
+        "id":25,
+        "name":"standart",
+        "destination":"lobos",
+        "pax":1,
+        "prize":8000
+
+
+    },
+    {
+        "id":26,
+        "name":"superior",
+        "destination":"lobos",
+        "pax":1,
+        "prize":8000
+
+
+    },
+    {
+        "id":27,
+        "name":"suit DOME",
+        "destination":"lobos",
+        "pax":1,
+        "prize":8000
+
+
+    },
+    {
+        "id":28,
+        "name":"standart",
+        "destination":"lobos",
+        "pax":2,
+        "prize":13000
+
+
+    },
+    {
+        "id":29,
+        "name":"superior",
+        "destination":"lobos",
+        "pax":2,
+        "prize":13000
+
+
+    },
+    {
+        "id":30,
+        "name":"suit DOME",
+        "destination":"lobos",
+        "pax":2,
+        "prize":13000
+
+
+    },
+    {
+        "id":31,
+        "name":"standart",
+        "destination":"lobos",
+        "pax":3,
+        "prize":18000
+
+
+    },
+    {
+        "id":32,
+        "name":"superior",
+        "destination":"lobos",
+        "pax":3,
+        "prize":18000
+
+
+    },
+    {
+        "id":33,
+        "name":"suit DOME",
+        "destination":"lobos",
+        "pax":3,
+        "prize":18000
+
+
+    },
+    {
+        "id":34,
+        "name":"standart",
+        "destination":"lobos",
+        "pax":4,
+        "prize":23000
+
+
+    },
+    {
+        "id":35,
+        "name":"superior",
+        "destination":"lobos",
+        "pax":4,
+        "prize":23000
+
+
+    },
+    {
+        "id":36,
+        "name":"suit DOME",
+        "destination":"lobos",
+        "pax":4,
+        "prize":23000
+
+
+    }
+    
+]}
