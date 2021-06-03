@@ -16,6 +16,7 @@ app.get('/', (req,res) => {
     res.render('index');
 });
 
+
 const aboutRoutes = require('./routes/aboutRoutes');
 app.use('/about', aboutRoutes);
 

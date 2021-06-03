@@ -1,11 +1,11 @@
 const fs = require('fs');
-const jsonFile = JSON.parse(fs.readFileSync(__dirname +'/products.JSON'))
+const jsonFile = JSON.parse(fs.readFileSync(__dirname +'/productos.JSON'))
 module.exports = {
     findAll(){
-        return jsonFile.products
+        return jsonFile.productos
     },
     findByPk(id){
-        return jsonFile.products.find(product =>
+        return jsonFile.productos.find(product =>
             Number(product.id) === Number (id)
             )
     }}

@@ -164,9 +164,7 @@ a.a{
     text-align: start;  
     font-size: 15PX; 
 }
-.selectTent{
-    width: 50%; 
-}
+
 
 img{
     margin-top: 25px;
@@ -174,7 +172,8 @@ img{
 .information{
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
+    flex-direction: column;
+   
     
 }
 
