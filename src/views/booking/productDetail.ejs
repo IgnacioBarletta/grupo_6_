@@ -19,7 +19,9 @@
             <div>
                  <img src="/images/weglamp.png" width="200">
              </div>
-             <div> <i class="fas fa-bars"></i></div>
+             <div> <a href="/main/index"><i class="fas fa-bars"></i></a>
+                
+             </div>
              <div class="main-header-top-bar">
                      <h2 class="log-in">
                            <a href="/user/login">Iniciar Sesion</a> </h2>
@@ -92,76 +94,72 @@
 
       <section class="information">
       <article class="selectTent"></article>
-      <div class="container overflow-hidden">
-        <div class="row gy-5">
-          <div class="col-3">
-            <div class="p-2 border bg-light">Domo STANDART
-                <IMG src="https://www.ecocamp.travel/hubfs/Standard%20Dome%20EcoCamp%20Patagonia%201920x1281_960.webp" width="150px">
-                   
-                        <form action="/productDetail" method="POST">
-                            <label for="destination">Destino</label>
-            
-                               <select name="destination" id="destination">
-                                    <option value="patagonia">Patagonia</option>
-                                    <option value="lobos">Lobos</option>
-                                    <option value="tigre">Tigre</option>
-                                </select>
-                                </form>
-                    
-                   
-                   
-                  <form action="/bookingproductDetail" method="POST">
-                    <label for="pax" name="pax">cantidad de pax</label>
-                    <select name="Pax" id="pax">
-                        <option value="1">1</option>
-                        <option value="2">2</option>
-                        <option value="3">3</option>
-                        <option value="4">4</option>
-                     </select>
-                     <br>
-                     <button type="button" class="btn btn-secondary"><a href="/booking/productList">Descripcion</a> </button>
-                     <br>
-                     <button type="button" class="btn btn-outline-dark">Editar</button>
-                     <button type="button" class="btn btn-outline-dark">Nuevo</button>
-                </form>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-sm">
+            <h4>Domo STANDART</h4>
+            <IMG src="https://www.ecocamp.travel/hubfs/Standard%20Dome%20EcoCamp%20Patagonia%201920x1281_960.webp" width="150px">
                
-            </div>
+                    <form action="/productDetail" method="POST">
+                        <label for="destination">Destino</label>
+        
+                           <select name="destination" id="destination">
+                                <option value="patagonia">Patagonia</option>
+                                <option value="lobos">Lobos</option>
+                                <option value="tigre">Tigre</option>
+                            </select>
+                            </form>
+                
+               
+               
+              <form action="/bookingproductDetail" method="POST">
+                <label for="pax" name="pax">cantidad de pax</label>
+                <select name="Pax" id="pax">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                 </select>
+                 <br>
+                 <button type="button" class="btn btn-secondary"><a href="/booking/productList">Descripcion</a> </button>
+                 <br>
+                 <button type="button" class="btn btn-outline-dark">Editar</button>
+                 <button type="button" class="btn btn-outline-dark">Nuevo</button>
+            </form>
           </div>
-          <div class="col-3">
-            <div class="p-3 border bg-light">Domo  SUPERIOR
-                <IMG src="https://www.ecocamp.travel/hubfs/Superior%20Dome%20Interior_960.webp" width="150px">
+          <div class="col-sm">
+            <h4>Domo  SUPERIOR</h4>
+            <IMG src="https://www.ecocamp.travel/hubfs/Superior%20Dome%20Interior_960.webp" width="150px">
               
                 
-                  <form action="/productDetail" method="POST">
-                      <label for="destination">Destino</label>
-      
-                         <select name="destination" id="destination">
-                              <option value="patagonia">Patagonia</option>
-                              <option value="lobos">Lobos</option>
-                              <option value="tigre">Tigre</option>
-                          </select>
-                          </form>
-              <form action="/bookingproductDetail" method="POST">
-              <label for="pax" name="pax">cantidad de pax</label>
-              <select name="Pax" id="pax">
-                  <option value="1">1</option>
-                  <option value="2">2</option>
-                  <option value="3">3</option>
-                  <option value="4">4</option>
-               </select>
-               <button type="button" class="btn btn-secondary"><a href="/booking/productList">Descripcion</a> </button>
-               <br>
-               <button type="button" class="btn btn-outline-dark">Editar</button>
-               <button type="button" class="btn btn-outline-dark">Nuevo</button>
-                  
-          </form>
-          
-          
+              <form action="/productDetail" method="POST">
+                  <label for="destination">Destino</label>
+  
+                     <select name="destination" id="destination">
+                          <option value="patagonia">Patagonia</option>
+                          <option value="lobos">Lobos</option>
+                          <option value="tigre">Tigre</option>
+                      </select>
+                      </form>
+          <form action="/bookingproductDetail" method="POST">
+          <label for="pax" name="pax">cantidad de pax</label>
+          <select name="Pax" id="pax">
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+           </select>
+           <br>
+           <button type="button" class="btn btn-secondary"><a href="/booking/productList">Descripcion</a> </button>
+           <br>
+           <button type="button" class="btn btn-outline-dark">Editar</button>
+           <button type="button" class="btn btn-outline-dark">Nuevo</button>
               
-            </div>
+      </form>
           </div>
-          <div class="col-3">
-            <div class="p-3 border bg-light">Suite DOME
+          <div class="col-sm">
+            <h4>Suite DOME</h4>
                 <IMG src="https://www.ecocamp.travel/hubfs/Suite%20Dome%20EcoCamp%20Patagonia%201920x1281%20(1)_960.webp"width="150px">
                 
                   <form action="/productDetail" method="POST">
@@ -183,34 +181,37 @@
                   <option value="3">3</option>
                   <option value="4">4</option>
                </select>
-               <button type="button" class="btn btn-secondary"><a href="/booking/productList">Descripcion</a> </button>
+               <br>
+               <button type="button" class="btn btn-secondary"><a href="./productList">Descripcion</a> </button>
                <br>
                <button type="button" class="btn btn-outline-dark">Editar</button>
                <button type="button" class="btn btn-outline-dark">Nuevo</button>
           </form>
-
-            </div>
           </div>
-        
         </div>
       </div>
-
-            <article class="yourStay">
-                <h3>Destino</h3>
-                <h3>check in date + Horario 15hs</h3>
-                <h3>check out date + Horario 12hs</h3>
-                <h3>Total de pax</h3>
-                <h3>Total $$</h3>
-                <a class="a" href="#">Reservar</a>
-                <div class="textodescriptivo">
-                    <p>Formas de pago</p>
-                    <p><i class="fab fa-cc-visa"></i>Visa</p>
-                    <p><i class="fab fa-cc-amex"></i>American Express</p>
-                    <p><i class="fab fa-cc-mastercard"></i>Masterard</p>
-                   
-    
-                </div>
+      
+          <article class="yourStay">
+                <div class="card text-white bg-secondary mb-3" style="max-width: 18rem;">
+                  <div class="card-header">Tu Carrito</div>
+                  <div class="card-body">
+                    <h5 class="card-title">tu reserva </h5>
+                    <p class="card-text"><h3>Destino</h3>
+                          <h3>check in date + Horario 15hs</h3>
+                          <h3>check out date + Horario 12hs</h3>
+                          <h3>Total de pax</h3>
+                          <h3>Total $$</h3>
+                          <a class="a" href="#">Reservar</a>
+                          <div class="textodescriptivo">
+                              <p>Formas de pago</p>
+                              <p><i class="fab fa-cc-visa"></i>Visa</p>
+                              <p><i class="fab fa-cc-amex"></i>American Express</p>
+                              <p><i class="fab fa-cc-mastercard"></i>Masterard</p>
+                              
+                  </div>
             </article>
+
+      
         </section>
 
         
