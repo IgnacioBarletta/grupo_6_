@@ -163,6 +163,11 @@ section.bottom-footer{
         i.fas.fa-bars{
             display:none;
         }
+        .footer_mobile{
+            display: none;
+           
+        }
+      
 
     }
     

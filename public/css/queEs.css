@@ -124,9 +124,15 @@ section.bottom-footer{
            display: none;
        }
     }
+   
     @media(min-width:769px){
         i.fas.fa-bars{
             display:none;
         }
+        .footer_mobile{
+            display: none;
+           
+        }
+      
 
     }

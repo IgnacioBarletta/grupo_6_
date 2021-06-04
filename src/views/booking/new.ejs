@@ -22,16 +22,23 @@
                 <h2 class="nuevo">Usuario nuevo?</h2>
                 <a href="/user/register" class="crear">Crear una cuenta</a>
             </section>
-            <section class="form">
+
+            <form action="/booking/new" method="POST">
+                <input type="text" name="destination" id="destination" class="campo_ubicacion"  placeholder="Ubicacion" >
                 <p></p>
-                <input type="text" class="campo_usuario" placeholder="Ubicacion"><br>
+                <input type="text" name="name" id="name" class="campo_tipo"  placeholder="tipo de domo" >
                 <p></p>
-                <input type="text" class="campo_contrasena" placeholder="tipo de domo">
-                <p></p>
+                <button type="submit"class="ingresar" value="Registrar Domo"> Registrar </button> >
+
+                
+
+            </form>
+
+            <!--<section class="form">
                 <label><input type="checkbox" class="mantenerme_logueado">Mantenerme logueado</label>
-                <p></p>
-                <input type="button" class="ingresar" value="Registrar Domo">
-            </section>
+                
+            </section>-->
+
             <section class="ingreso_alternativo">
                 <hr> <h3> o ingresar con </h3> <hr>
             </section>

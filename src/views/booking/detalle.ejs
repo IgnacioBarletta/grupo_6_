@@ -2,12 +2,25 @@
 <html lang="en">
 <head>
     <%- include('../../partials/head') %> 
+    
     <link rel="stylesheet" href="/css/productDetail.css">
    <title>Document</title>
 </head>
 <body>
     <header>
-        <%- include('../../partials/header') %> 
+      <section class="top-header">
+        <div>
+             <img src="/images/weglamp.png" width="200">
+         </div>
+         <div> <a href="/main/index"><i class="fas fa-bars"></i></a>
+                
+         </div>
+         <div class="main-header-top-bar">
+                 <h2 class="log-in">
+                       <a href="/user/login">Iniciar Sesion</a> </h2>
+                 <h2 class="ayuda">
+                         <a href="/main/index">volver</a></h2>
+        </div>
     </header>
  <section class="detalle">
     <div class="card text-white bg-secondary mb-3" style="max-width: 18rem;">

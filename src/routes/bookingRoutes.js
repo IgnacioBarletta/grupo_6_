@@ -6,13 +6,14 @@ const bookingControllers = require('../controllers/bookingControllers');
 
 bookingRoutes.get('/productDetail/:id?', bookingControllers.productDetail)
 bookingRoutes.get('/productList/:id?', bookingControllers.productList)
+
+bookingRoutes.post('/new', bookingControllers.store)
 bookingRoutes.get('/new',bookingControllers.new)
 bookingRoutes.get('/edit',bookingControllers.edit)
 bookingRoutes.get('/detalle/:id?', bookingControllers.detalle)
 
 
 /*
-aboutRoutes.get('/detail/:id', planetsController.detail)
 
 ///para solicitar una lista de productos//
 const express = require('express');
@@ -21,8 +22,5 @@ router.get("/productos",function(req, res){
 
     res.send(req.query);
 })
-
-
-
 */
 module.exports = bookingRoutes
