@@ -4,9 +4,11 @@ const path = require('path');
 
 const bookingControllers = require('../controllers/bookingControllers');
 
-bookingRoutes.get('/productDetail', bookingControllers.productDetail)
-bookingRoutes.get('./productList/:id', bookingControllers.productList)
-bookingRoutes.get('./new',bookingControllers.new)
+bookingRoutes.get('/productDetail/:id?', bookingControllers.productDetail)
+bookingRoutes.get('/productList/:id?', bookingControllers.productList)
+bookingRoutes.get('/new',bookingControllers.new)
+bookingRoutes.get('/edit',bookingControllers.edit)
+bookingRoutes.get('/detalle/:id?', bookingControllers.detalle)
 
 
 /*

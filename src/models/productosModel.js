@@ -8,4 +8,9 @@ module.exports = {
         return jsonFile.productos.find(product =>
             Number(product.id) === Number (id)
             )
-    }}
+    }
+
+
+
+
+}

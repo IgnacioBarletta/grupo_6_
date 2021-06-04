@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%- include('../../partials/head') %> 
+    <link rel="stylesheet" href="/css/productDetail.css">
+   <title>Document</title>
+</head>
+<body>
+    <header>
+        <%- include('../../partials/header') %> 
+    </header>
+ <section class="detalle">
+    <div class="card text-white bg-secondary mb-3" style="max-width: 18rem;">
+        <div class="card-header">Nombre: DOMO <%= detalleProductos.name %> </div>
+        <div class="card-body">
+          <h5 class="card-title">Destino: <%= detalleProductos.destination %></h5>
+          <p class="card-text"><h2>Precio: ARS<%= detalleProductos.prize %></h2>
+            <br>
+           <H2>Cantidad de pasajeros permitidos: <%= detalleProductos.pax %></H2> </p>
+        </div>
+      </div>
+     
+ </section>
+ <footer> <%- include('../../partials/footer') %></footer>
+</body>
+</html>

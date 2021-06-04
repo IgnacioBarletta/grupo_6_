@@ -323,7 +323,11 @@ section.bottom-footer{
   .form-switch input:checked + i::after { 
       transform: translate3d(22px, 2px, 0); 
     }
-
+.detalle{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
     .suscribirme{
         margin:auto; 
         background-color: red; 

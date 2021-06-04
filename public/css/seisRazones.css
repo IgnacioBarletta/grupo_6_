@@ -28,7 +28,7 @@ div.main-header-top-bar {
 }
 div.main-header-top-bar h2 a{
     margin: 6px;
-    background-color: #6c757d;
+    background-color: red;
     padding: 6px 12px;
     font-size: 16px;
     text-align: center;

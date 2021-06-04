@@ -18,7 +18,7 @@ body div{
     padding:10px;
 }
 
-body ul li{
+body ol li{
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -33,14 +33,14 @@ body ul li{
   width: 33%;
 }
 
-body ul{
+body ol{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
 justify-content: space-around;
 }
 
-ul p{
+ol p{
     font-size: 1em;
     padding:20px;
     margin: 0px;
@@ -80,7 +80,7 @@ div.main-header-top-bar {
 }
 div.main-header-top-bar h2 a{
     margin: 6px;
-    background-color: #6c757d;
+   background-color: red;
     padding: 6px 12px;
     font-size: 16px;
     text-align: center;
@@ -103,7 +103,7 @@ div.left-footer{
      padding-top: 3rem;
 }
 
-section.right-footer{
+ section.right-footer{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -142,7 +142,7 @@ section.bottom-footer{
           margin:auto;
      
        }
-       body ul{
+       body ol{
       
         flex-wrap: nowrap;
         display: block;
@@ -150,7 +150,7 @@ section.bottom-footer{
         margin: auto;
         padding: 0%;
     }
-    body ul li{
+    body ol li{
         width:90vw;
         padding: 0%;
        margin: auto;

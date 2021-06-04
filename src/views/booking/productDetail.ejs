@@ -15,36 +15,13 @@
     </head>
 <body>
     <header>
-        <section class="top-header">
-            <div>
-                 <img src="/images/weglamp.png" width="200">
-             </div>
-             <div> <a href="/main/index"><i class="fas fa-bars"></i></a>
-                
-             </div>
-             <div class="main-header-top-bar">
-                     <h2 class="log-in">
-                           <a href="/user/login">Iniciar Sesion</a> </h2>
-                     <h2 class="ayuda">
-                             <a href="/main/index">Volver</a></h2>
-            </div>
-        </section>
-        <div class="main-header-bottom-bar"> 
-            <h3>
-                <a href="#">Alojamientos </a></h3>
-              
-            <h3>
-                 <a href="#">Paquetes </a></h3>
-                
-            <h3>
-                <a href="#">Seguros </a></h3>
-        </div>
-    
-        
+      <%- include('../../partials/header') %> 
         
     
     </header>
     <main>
+      
+
         <nav class="main-nav-bar"> 
             <h3>Buscá tu paquete</h3>
             <nav class="barradebusqueda">
@@ -74,8 +51,9 @@
                         <option value="4">4</option>
                      </select>
                
-                <i class="fas fa-search"><button type="submit"> <a href="/booking/productDetail">Buscar</a></button></i> 
-                
+                <i class="fas fa-search"><button type="submit"> <a href="/booking/productDetail">Buscar</a></button>
+                  </i> 
+                 
             </form>
             </nav>
            
@@ -122,17 +100,16 @@
                     <option value="4">4</option>
                  </select>
                  <br>
+                
                  <button type="button" class="btn btn-secondary"><a href="/booking/productList">Descripcion</a> </button>
                  <br>
-                 <button type="button" class="btn btn-outline-dark">Editar</button>
-                 <button type="button" class="btn btn-outline-dark">Nuevo</button>
+                 <button type="button" class="btn btn-outline-dark"><a href="/booking/edit">Editar</a></button>
+                 <button type="button" class="btn btn-outline-dark"><a href="/booking/new">Nuevo</a></button>
             </form>
           </div>
           <div class="col-sm">
             <h4>Domo  SUPERIOR</h4>
-            <IMG src="https://www.ecocamp.travel/hubfs/Superior%20Dome%20Interior_960.webp" width="150px">
-              
-                
+            <IMG src="https://www.ecocamp.travel/hubfs/Superior%20Dome%20Interior_960.webp" width="150px"> 
               <form action="/productDetail" method="POST">
                   <label for="destination">Destino</label>
   
@@ -153,11 +130,12 @@
            <br>
            <button type="button" class="btn btn-secondary"><a href="/booking/productList">Descripcion</a> </button>
            <br>
-           <button type="button" class="btn btn-outline-dark">Editar</button>
-           <button type="button" class="btn btn-outline-dark">Nuevo</button>
+           <button type="button" class="btn btn-outline-dark"><a href="/booking/edit">Editar</a></button>
+           <button type="button" class="btn btn-outline-dark"><a href="/booking/new">Nuevo</a></button>
               
       </form>
           </div>
+
           <div class="col-sm">
             <h4>Suite DOME</h4>
                 <IMG src="https://www.ecocamp.travel/hubfs/Suite%20Dome%20EcoCamp%20Patagonia%201920x1281%20(1)_960.webp"width="150px">
@@ -182,10 +160,10 @@
                   <option value="4">4</option>
                </select>
                <br>
-               <button type="button" class="btn btn-secondary"><a href="./productList">Descripcion</a> </button>
+               <button type="button" class="btn btn-secondary"><a href="/booking/productList">Descripcion</a> </button>
                <br>
-               <button type="button" class="btn btn-outline-dark">Editar</button>
-               <button type="button" class="btn btn-outline-dark">Nuevo</button>
+               <button type="button" class="btn btn-outline-dark"><a href="/booking/edit">Editar</a></button>
+               <button type="button" class="btn btn-outline-dark"><a href="/booking/new">Nuevo</a></button>
           </form>
           </div>
         </div>
