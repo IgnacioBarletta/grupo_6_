@@ -33,6 +33,7 @@ const bookingControllers = {
             name:name,
         }
         productosModel.create(product)
+        res.redirect('/')
     },
 
 }

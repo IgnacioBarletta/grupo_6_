@@ -13,14 +13,4 @@ bookingRoutes.get('/edit',bookingControllers.edit)
 bookingRoutes.get('/detalle/:id?', bookingControllers.detalle)
 
 
-/*
-
-///para solicitar una lista de productos//
-const express = require('express');
-const router = express.Router();
-router.get("/productos",function(req, res){
-
-    res.send(req.query);
-})
-*/
 module.exports = bookingRoutes

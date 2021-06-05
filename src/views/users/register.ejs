@@ -23,20 +23,22 @@
                 <h2 class="nuevo">Ya es usuario?</h2>
                 <a href="/user/login" class="crear">Ingresar</a>
             </section>
-            <section class="form">
+
+            <form action="/users/register" method="POST">
+                <input type="text" name="nombre" id="nombre" class="campo_nombre"  placeholder="Nombre" >
                 <p></p>
-                <div class="nombre_apellido">
-                <input type="text" class="campo_nombre" placeholder="Nombre"><br>
+                <input type="text" name="apellido" id="apellido" class="campo_apellido"  placeholder="Apellido" >
                 <p></p>
-                <input type="text" class="campo_apellido" placeholder="Apellido">
+                <input type="text" name="email" id="email" class="campo_correo"  placeholder="email" >
                 <p></p>
-                </div>
-                <input type="text" class="campo_correo" placeholder="Correo electrónico">
+                <input type="text" name="contraseña" id="contraseña" class="campo_contrasena"  placeholder="Contraseña" >
                 <p></p>
-                <input type="text" class="campo_contrasena" placeholder="Contraseña">
+                <button type="submit"class="ingresar" value="Registrar Domo"> Registrar </button> >
                 <p></p>
-                <input type="button" class="ingresar" value="Ingresar">
-            </section>
+                 <label><input type="checkbox" class="mantenerme_logueado"> Mantenerme logueado</label>
+
+            </form>
+           
             <section class="ingreso_alternativo">
                 <hr> <h3>o registrarme</h3> <hr>
             </section>

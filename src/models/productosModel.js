@@ -1,33 +1,43 @@
 
 const fs = require('fs');
 const path = require('path')
-const jsonFile = JSON.parse(fs.readFileSync(__dirname +'/productos.JSON'))
+
 
 
 module.exports = {
-    filename: path.resolve(__dirname, '/productos.JSON'),
+    
+    readFile(){
+       return JSON.parse(fs.readFileSync(this.filename)) 
+    },
+    
+    filename: path.resolve(__dirname, './productos.JSON'),
 
     findAll(){
-        return jsonFile.productos
+        return this.readFile()
     },
 
     findByPk(id){
-        return jsonFile.productos.find(product =>
-            Number(product.id) === Number (id)
-            )
+        return this.readFile().find(product =>Number(product.id) === Number (id))    
     },
-    create(planet) {
-        productos.id = jsonFile.generateId();
-        const products = jsonFile.readFile();
+    create(product) {
+        product.id = this.generateId();
+        const products = this.readFile();
         const productsUpdated = [...products, product];
         this.writeFile(productsUpdated);
         return product;
     },
     generateId() {
-        const products = jsonFile.readFile();
-        const lastProduct = productos.pop();
-        return lastProductos.id + 1;
+        const products = this.readFile();
+        const lastProduct = products.pop();
+        return lastProduct.id + 1;
     },
+    writeFile(newProducts){
+       // convertir el array que te llega como parametro a JSON
+       const json = JSON.stringify(newProducts, null , 2) 
+
+       // reescribir el archivo .JSON
+       fs.writeFileSync(this.filename, json);
+    }
     
 
 }

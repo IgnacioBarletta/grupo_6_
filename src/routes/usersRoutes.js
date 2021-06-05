@@ -6,9 +6,8 @@ const userControllers = require('../controllers/userControllers');
 
 userRoutes.get('/login', userControllers.login)
 userRoutes.get('/register', userControllers.register)
+userRoutes.post('/register', userControllers.store)
 
 
-/*
-aboutRoutes.get('/detail/:id', planetsController.detail)
-*/
+
 module.exports = userRoutes
