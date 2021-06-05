@@ -25,3 +25,19 @@ Conclusiones para el próximo sprint:
 Se establece como único canal de follow up diario el trello.
 Se establece una call semanal para repaso de las tareas realizadas en la semana por los integrantes.
 Se analiza con el profesor la participación de un nuevo integrante para poder cumplir con los tiempos y objetivos.
+
+retro 2do sprint
+
+Positivo:
+El canal de comunicación que veníamos utilizando para los follow up se modifica a whatsapp, donde se realizo la weekly.
+
+
+Negativo:
+poca participacion en las actividades.
+Hay falta de tiempo para elaborar el proyecto y resolver la problematica a entregar.
+Falta de seguimiento diario en trello.
+
+Conclusiones para el próximo sprint:
+Se establece una call semanal para repaso de las tareas realizadas en la semana por los integrantes. la misma se vuelca el trello.
+tareas inconclusas o poco desarrolladas.
+
