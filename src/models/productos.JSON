@@ -1,38 +1,9 @@
 [
   {
-    "id": 1,
-    "name": "standart",
-    "destination": "patagonia",
-    "pax": 1,
-    "prize": 10000
+    "id": 4
   },
   {
-    "id": 2,
-    "name": "superior",
-    "destination": "patagonia",
-    "pax": 1,
-    "prize": 10000
-  },
-  {
-    "id": 3,
-    "name": "suit DOME",
-    "destination": "patagonia",
-    "pax": 1,
-    "prize": 10000
-  },
-  {
-    "id": 4,
-    "name": "standart",
-    "destination": "patagonia",
-    "pax": 2,
-    "prize": 15000
-  },
-  {
-    "id": 5,
-    "name": "superior",
-    "destination": "patagonia",
-    "pax": 2,
-    "prize": 15000
+    "id": 5
   },
   {
     "id": 6,

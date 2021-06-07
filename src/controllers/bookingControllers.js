@@ -17,8 +17,24 @@ const bookingControllers = {
     },
 
     edit :(req,res)=> {
-        res.render('booking/edit')   
+        const product = productosModel.findByPk(req.params.id);
+        res.render('booking/edit'), {
+            product
+        }; 
     },
+
+
+    update: (req, res) => {
+        const data = req.body;
+        const { id } = req.params;
+        
+        console.log(hola)
+        productosModel.update(data, id);
+
+        res.redirect('/booking/edit/' + id);
+    },
+
+
 
     detalle :(req,res)=> {
         const id = req.params.id
@@ -31,10 +47,18 @@ const bookingControllers = {
         const product = {
             destination: destination,
             name:name,
+           
         }
         productosModel.create(product)
         res.redirect('/')
     },
+    destroy: (req, res) => {
+        const id = req.params.id;
+        
+       productosModel.destroy(id);
+
+        res.redirect('/booking/productList');
+    }
 
 }
 

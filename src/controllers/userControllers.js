@@ -3,11 +3,11 @@ const registerModel = require('../models/registerModel')
 
 const userControllers = {
     login: (req, res) => {
-        res.render('users/login')
+        res.render('user/login')
     },
 
     register: (req, res) => {
-            res.render('users/register')
+            res.render('user/register')
      },
 
      store: (req, res) => {

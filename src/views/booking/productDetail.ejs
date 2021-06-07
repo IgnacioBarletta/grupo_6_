@@ -79,9 +79,8 @@
             <h4>Domo STANDART</h4>
             <IMG src="https://www.ecocamp.travel/hubfs/Standard%20Dome%20EcoCamp%20Patagonia%201920x1281_960.webp" width="150px">
                
-                    <form action="/productDetail" method="POST">
-                        <label for="destination">Destino</label>
-        
+                    <form action="/booking/productDetail" method="POST">
+                        <label for="destination" name="destination">Destino</label>
                            <select name="destination" id="destination">
                                 <option value="patagonia">Patagonia</option>
                                 <option value="lobos">Lobos</option>
@@ -91,7 +90,7 @@
                 
                
                
-              <form action="/bookingproductDetail" method="POST">
+              <form action="/booking/productDetail" method="POST">
                 <label for="pax" name="pax">cantidad de pax</label>
                 <select name="Pax" id="pax">
                     <option value="1">1</option>
@@ -103,15 +102,15 @@
                 
                  <button type="button" class="btn btn-secondary"><a href="/booking/productList">Descripcion</a> </button>
                  <br>
-                 <button type="button" class="btn btn-outline-dark"><a href="/booking/edit">Editar</a></button>
                  <button type="button" class="btn btn-outline-dark"><a href="/booking/new">Nuevo</a></button>
             </form>
           </div>
+
           <div class="col-sm">
             <h4>Domo  SUPERIOR</h4>
             <IMG src="https://www.ecocamp.travel/hubfs/Superior%20Dome%20Interior_960.webp" width="150px"> 
-              <form action="/productDetail" method="POST">
-                  <label for="destination">Destino</label>
+              <form action="/booking/productDetail" method="POST">
+                  <label for="destination" name= "destination">Destino</label>
   
                      <select name="destination" id="destination">
                           <option value="patagonia">Patagonia</option>
@@ -119,7 +118,7 @@
                           <option value="tigre">Tigre</option>
                       </select>
                       </form>
-          <form action="/bookingproductDetail" method="POST">
+          <form action="/booking/productDetail" method="POST">
           <label for="pax" name="pax">cantidad de pax</label>
           <select name="Pax" id="pax">
               <option value="1">1</option>
@@ -130,7 +129,6 @@
            <br>
            <button type="button" class="btn btn-secondary"><a href="/booking/productList">Descripcion</a> </button>
            <br>
-           <button type="button" class="btn btn-outline-dark"><a href="/booking/edit">Editar</a></button>
            <button type="button" class="btn btn-outline-dark"><a href="/booking/new">Nuevo</a></button>
               
       </form>
@@ -140,10 +138,9 @@
             <h4>Suite DOME</h4>
                 <IMG src="https://www.ecocamp.travel/hubfs/Suite%20Dome%20EcoCamp%20Patagonia%201920x1281%20(1)_960.webp"width="150px">
                 
-                  <form action="/productDetail" method="POST">
-                      <label for="destination">Destino</label>
-      
-                         <select name="destination" id="destination">
+                  <form action="/booking/productDetail" method="POST">
+                      <label for="destination" name="destination">Destino</label>
+                       <select name="destination" id="destination">
                               <option value="patagonia">Patagonia</option>
                               <option value="lobos">Lobos</option>
                               <option value="tigre">Tigre</option>
@@ -151,7 +148,7 @@
                           
                           </form>
              
-            <form action="/bookingproductDetail" method="POST">
+            <form action="/booking/productDetail" method="POST">
               <label for="pax" name="pax">cantidad de pax</label>
               <select name="Pax" id="pax">
                   <option value="1">1</option>
@@ -162,7 +159,6 @@
                <br>
                <button type="button" class="btn btn-secondary"><a href="/booking/productList">Descripcion</a> </button>
                <br>
-               <button type="button" class="btn btn-outline-dark"><a href="/booking/edit">Editar</a></button>
                <button type="button" class="btn btn-outline-dark"><a href="/booking/new">Nuevo</a></button>
           </form>
           </div>

@@ -10,13 +10,7 @@ module.exports = {
     
     filename: path.resolve(__dirname, './register.JSON'),
 
-   /* findAll(){
-        return this.readFile()
-    },
 
-    findByPk(id){
-        return this.readFile().find(product =>Number(product.id) === Number (id))    
-    },*/
 
     create(regist) {
         regist.id = this.generateId();

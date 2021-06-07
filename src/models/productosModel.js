@@ -37,7 +37,29 @@ module.exports = {
 
        // reescribir el archivo .JSON
        fs.writeFileSync(this.filename, json);
-    }
+    },
+    destroy(id) {
+        const products = this.readFile();
+
+        const newProducts = products.filter(product => product.id != id);
+
+        this.writeFile(newProducts);
+    },
+    update(data, id) {
+        const products = this.readFile();
+
+        const newProducts = products.map(product => {
+            if(product.id == id){
+                product = {
+                    id: product.id,
+                    ...data
+                }
+            }
+            return product;
+        });
+
+        this.writeFile(newProducts);
+    },
     
 
 }

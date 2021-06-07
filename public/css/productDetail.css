@@ -338,7 +338,9 @@ section.bottom-footer{
         padding: 8px;
         margin-top: 5px;
     }
-
+.btn.btn-secondary{
+    background-color: red;
+}
     @media (max-width:768px){
 
  

@@ -13,7 +13,5 @@ aboutRoutes.get('/seisRazones', aboutControllers.seisRazones)
 aboutRoutes.get('/terminos', aboutControllers.terminos)
 aboutRoutes.get('/tipos', aboutControllers.tipos)
 
-/*
-aboutRoutes.get('/detail/:id', planetsController.detail)
-*/
+
 module.exports = aboutRoutes
