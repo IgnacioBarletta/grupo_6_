@@ -1,6 +1,6 @@
 const path = require('path')
 const productosModel = require('../models/productosModel')
-
+const multer = require('multer');
 const bookingControllers = {
  
     productDetail: (req, res) => {
@@ -18,17 +18,16 @@ const bookingControllers = {
 
     edit :(req,res)=> {
         const product = productosModel.findByPk(req.params.id);
-        res.render('booking/edit'), {
+        res.render('booking/edit', {
             product
-        }; 
+        }); 
     },
 
 
     update: (req, res) => {
         const data = req.body;
         const { id } = req.params;
-        
-        console.log(hola)
+   
         productosModel.update(data, id);
 
         res.redirect('/booking/edit/' + id);
@@ -43,12 +42,18 @@ const bookingControllers = {
     },
 
     store: (req, res) => {
-        const { destination, name} = req.body;
+        const { destination, name, pax, prize} = req.body;
+        const { file } = req
+        const image = file.filename
         const product = {
             destination: destination,
             name:name,
-           
+            pax:pax,
+            prize:prize,
+            image:'/images/'+ image,
         }
+
+
         productosModel.create(product)
         res.redirect('/')
     },

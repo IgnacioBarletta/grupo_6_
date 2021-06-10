@@ -9,9 +9,7 @@
     <title>new</title>
 </head>
 <body>
-        <!-- 
-            action: la ruta donde vamos a mandar nuestros campos 
-        -->
+    
         <div class="modal-container" id="modal-container">
             
             <div class="modal">
@@ -20,27 +18,27 @@
                 <h1>Edita tu Domo</h1>
             <section class="usuario_crear">
                 <h2 class="nuevo">Usuario nuevo?</h2>
-                <a href="/user/register" class="crear">Crear una cuenta</a>
+                <a href="/users/register" class="crear">Crear una cuenta</a>
             </section>
 
-            <form action="/booking/<%= producto.id %>?_method=PUT" method="POST">
+            <form action="/booking/edit/<%= product.id %>?_method=PUT" method="POST">
 
                <section class="form">
                 <p></p>
-                <input type="text" name="destination" id="destination"  value="<%= producto.destination %>" class="campo_usuario" placeholder="Ubicacion"><br>
+                <input type="text" name="destination" id="destination"  value="<%= product.destination %>" class="campo_usuario" placeholder="Ubicacion"><br>
                 <p></p>
-                <input type="text" name="name" id="name" value="<%= producto.name %>" class="campo_contrasena" placeholder="tipo de domo">
+                <input type="text" name="name" id="name" value="<%= product.name %>" class="campo_contrasena" placeholder="tipo de domo">
                 <p></p>
-                <label><input type="checkbox" class="mantenerme_logueado">Mantenerme logueado</label>
+                <input type="text" name="pax" id="pax" value="<%= product.pax %>" class="campo_contrasena" placeholder="pax">
                 <p></p>
-                <input type="button" class="ingresar" value="Editar">
+                <input type="text" name="prize" id="prize" value="<%= product.prize %>" class="campo_contrasena" placeholder="precio">
+                <p></p>
+                <!--    <p></p>
+                <label><input type="checkbox" class="mantenerme_logueado">Mantenerme logueado</label>-->
+                <input type="submit" class="ingresar" value="Editar">
             </section>
 
             </form> 
-
-            
-
-
 
             <section class="ingreso_alternativo">
                 <hr> <h3> o ingresar con </h3> <hr>

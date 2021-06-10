@@ -67,34 +67,34 @@ h3 {
 }
 
 .campo_nombre {
-    width: 135px;
-    height: 48px;
+    width: 280px;
+    height: 38px;
     opacity: 1;
 }
 
 .campo_apellido {
-    width: 135px;
-    height: 48px;
+    width: 280px;
+    height: 38px;
     opacity: 1;
     margin-left: 10px;
 }
 
 .campo_correo {
     width: 280px;
-    height: 48px;
+    height: 38px;
     opacity: 1;
     margin-top: 10px;
 }
 
 .campo_contrasena {
     width: 280px;
-    height: 48px;
+    height: 38px;
     opacity: 1;
 }
 
 .ingresar {
     width: 280px;
-    height: 48px;
+    height: 38px;
     opacity: 1;
     background-color: red;
     color: white;

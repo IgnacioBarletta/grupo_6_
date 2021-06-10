@@ -9,9 +9,7 @@
     <title>new</title>
 </head>
 <body>
-        <!-- 
-            action: la ruta donde vamos a mandar nuestros campos 
-        -->
+       
         <div class="modal-container" id="modal-container">
             
             <div class="modal">
@@ -23,10 +21,16 @@
                 <a href="/user/register" class="crear">Crear una cuenta</a>
             </section>
 
-            <form action="/booking/new" method="POST">
+            <form action="/booking/new" method="POST" enctype="multipart/form-data">
                 <input type="text" name="destination" id="destination" class="campo_ubicacion"  placeholder="Ubicacion" >
                 <p></p>
                 <input type="text" name="name" id="name" class="campo_tipo"  placeholder="tipo de domo" >
+                <p></p>
+                <input type="text" name="pax" id="pax"  class="campo_contrasena" placeholder="pax">
+                <p></p>
+                <input type="text" name="prize" id="prize"  class="campo_contrasena" placeholder="precio">
+                <p></p>
+                <input type="file" name="image" id="image" class="campo_tipo">
                 <p></p>
                 <button type="submit"class="ingresar" value="Registrar Domo"> Registrar </button> >
                 <p></p>

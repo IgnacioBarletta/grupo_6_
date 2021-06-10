@@ -20,11 +20,7 @@
     "prize": 20000
   },
   {
-    "id": 8,
-    "name": "superior",
-    "destination": "patagonia",
-    "pax": 3,
-    "prize": 20000
+    "id": 8
   },
   {
     "id": 9,
@@ -105,10 +101,10 @@
   },
   {
     "id": 20,
+    "destination": "tigre1234",
     "name": "superior",
-    "destination": "tigre",
-    "pax": 3,
-    "prize": 19000
+    "pax": "5",
+    "prize": "1500"
   },
   {
     "id": 21,
@@ -276,5 +272,13 @@
     "destination": "srgs",
     "name": "domo",
     "id": 47
+  },
+  {
+    "destination": "escobar",
+    "name": "delux",
+    "pax": "5",
+    "prize": "1500",
+    "image": "/images/1623332767362.jpg",
+    "id": 48
   }
 ]
