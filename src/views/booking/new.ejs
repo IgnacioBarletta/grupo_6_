@@ -10,7 +10,7 @@
 </head>
 <body>
        
-        <div class="modal-container" id="modal-container">
+        <div class="modal-container" id="modal-container"></div>
             
             <div class="modal">
 
@@ -22,11 +22,27 @@
             </section>
 
             <form action="/booking/new" method="POST" enctype="multipart/form-data">
-                <input type="text" name="destination" id="destination" class="campo_ubicacion"  placeholder="Ubicacion" >
+                <select name="destination" id="destination" class="campo_ubicacion"  placeholder="Ubicacion" >
+                    <option value="">Ubicacion</option>
+                    <option value="">Tigre</option>
+                    <option value="">Lobos</option>
+                    <option value="">Patagonia</option>
+                </select>
                 <p></p>
-                <input type="text" name="name" id="name" class="campo_tipo"  placeholder="tipo de domo" >
+                <select name="name" id="name" class="campo_tipo"  placeholder="tipo de domo" >
+                    <option value="">Tipo de Domo</option>
+                    <option value="">Domo Standart</option>
+                    <option value="">Domo Superior</option>
+                    <option value="">Suite Domo</option>
+                </select>
                 <p></p>
-                <input type="text" name="pax" id="pax"  class="campo_contrasena" placeholder="pax">
+                <select name="pax" id="pax"  class="campo_contrasena" placeholder="pax">
+                    <option value="">cantidad de Pax</option>
+                    <option value="">1</option>
+                    <option value="">2</option>
+                    <option value="">3</option>
+                    <option value="">4</option>
+                </select>
                 <p></p>
                 <input type="text" name="prize" id="prize"  class="campo_contrasena" placeholder="precio">
                 <p></p>

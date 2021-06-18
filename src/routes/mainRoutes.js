@@ -8,7 +8,4 @@ mainRoutes.get('/index', mainControllers.index)
 mainRoutes.get('/ayuda', mainControllers.ayuda)
 
 
-/*
-aboutRoutes.get('/detail/:id', planetsController.detail)
-*/
 module.exports = mainRoutes

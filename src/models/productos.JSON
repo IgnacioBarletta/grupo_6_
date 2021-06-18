@@ -37,13 +37,6 @@
     "prize": 25000
   },
   {
-    "id": 11,
-    "name": "superior",
-    "destination": "patagonia",
-    "pax": 4,
-    "prize": 25000
-  },
-  {
     "id": 12,
     "name": "suit DOME",
     "destination": "patagonia",

@@ -19,6 +19,7 @@ module.exports = {
     findByPk(id){
         return this.readFile().find(product =>Number(product.id) === Number (id))    
     },
+    
     create(product) {
         product.id = this.generateId();
         const products = this.readFile();
